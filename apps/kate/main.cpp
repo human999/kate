@@ -29,6 +29,7 @@
 #include <QSessionManager>
 #include <QStandardPaths>
 #include <QStringDecoder>
+#include <QTimer>
 #include <QVariant>
 
 #include <qglobal.h>
@@ -216,6 +217,10 @@ int main(int argc, char **argv)
                                             i18n("The files/URLs opened by the application will be deleted after use"));
     parser.addOption(tempfileOption);
 
+    const QCommandLineOption selfTestOption(QStringLiteral("self-test"),
+                                            i18n("Starts the application in self-test mode for some basic functions checks and quits afterwards"));
+    parser.addOption(selfTestOption);
+
     // urls to open
     parser.addPositionalArgument(QStringLiteral("urls"), i18n("Documents to open."), i18n("[urls...]"));
 
@@ -223,6 +228,13 @@ int main(int argc, char **argv)
      * do the command line parsing
      */
     parser.process(app);
+
+    /**
+     * Self test should use a temporary config
+     */
+    if (parser.isSet(selfTestOption)) {
+        QStandardPaths::setTestModeEnabled(true);
+    }
 
     /**
      * handle standard options
@@ -600,6 +612,11 @@ int main(int argc, char **argv)
      */
     if (singleApplicationInstance) {
         QObject::connect(singleApplicationInstance.get(), &SingleApplication::receivedMessage, &kateApp, &KateApp::remoteMessageReceived);
+    }
+
+    if (parser.isSet(selfTestOption)) {
+        // 2 seconds for kate because it loads all plugins and some spawn processes like git
+        QTimer::singleShot(2000, &app, &QCoreApplication::quit);
     }
 
     /**

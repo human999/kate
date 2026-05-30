@@ -19,6 +19,7 @@
 #include <QCommandLineParser>
 #include <QIcon>
 #include <QStandardPaths>
+#include <QTimer>
 
 int main(int argc, char **argv)
 {
@@ -118,6 +119,10 @@ int main(int argc, char **argv)
     const QCommandLineOption tempfile(QStringList{QStringLiteral("tempfile")}, i18n("The files/URLs opened by the application will be deleted after use"));
     parser.addOption(tempfile);
 
+    const QCommandLineOption selfTestOption(QStringLiteral("self-test"),
+                                            i18n("Starts the application in self-test mode for some basic functions checks and quits afterwards"));
+    parser.addOption(selfTestOption);
+
     // urls to open
     parser.addPositionalArgument(QStringLiteral("urls"), i18n("Documents to open."), i18n("[urls...]"));
 
@@ -125,6 +130,13 @@ int main(int argc, char **argv)
      * do the command line parsing
      */
     parser.process(app);
+
+    /*
+     * Self test should use a temporary config
+     */
+    if (parser.isSet(selfTestOption)) {
+        QStandardPaths::setTestModeEnabled(true);
+    }
 
     /**
      * handle standard options
@@ -155,6 +167,10 @@ int main(int argc, char **argv)
      */
     const KDBusService dbusService(KDBusService::Multiple | KDBusService::NoExitOnFailure);
 #endif
+
+    if (parser.isSet(QStringLiteral("self-test"))) {
+        QTimer::singleShot(500, &app, &QCoreApplication::quit);
+    }
 
     /**
      * Run the event loop
