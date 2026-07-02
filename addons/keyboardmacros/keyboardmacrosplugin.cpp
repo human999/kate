@@ -63,13 +63,13 @@ void KeyboardMacrosPlugin::loadNamedMacros()
 {
     QFile storage(m_storage);
     if (!storage.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        sendMessage(i18n("Could not open file '%1'.", m_storage), false);
+        sendMessage(i18n("Could not open file ‘%1’.", m_storage), false);
         return;
     }
     QJsonParseError parseError;
     QJsonDocument jsonDoc = QJsonDocument::fromJson(storage.readAll(), &parseError);
     if (parseError.error != QJsonParseError::NoError) {
-        sendMessage(i18n("Malformed JSON file '%1': %2", m_storage, parseError.errorString()), true);
+        sendMessage(i18nc("%2 is an error message", "Malformed JSON file ‘%1’: %2", m_storage, parseError.errorString()), true);
     }
     QJsonObject json = jsonDoc.object();
     for (auto it = json.constBegin(); it != json.constEnd(); ++it) {
@@ -77,7 +77,7 @@ void KeyboardMacrosPlugin::loadNamedMacros()
         if (!m_wipedMacros.contains(it.key())) {
             auto maybeMacro = Macro::fromJson(it.value());
             if (!maybeMacro.second) {
-                sendMessage(i18n("Could not load '%1': malformed macro; wiping it.", it.key()), false);
+                sendMessage(i18nc("%1 is the name of a keyboard macro", "Could not load ‘%1’: malformed macro; wiping it.", it.key()), false);
                 m_wipedMacros.insert(it.key());
                 continue;
             }
@@ -99,7 +99,7 @@ void KeyboardMacrosPlugin::saveNamedMacros()
     // and now save named macros
     QSaveFile storage(m_storage);
     if (!storage.open(QIODevice::WriteOnly | QIODevice::Text)) {
-        sendMessage(i18n("Could not open file '%1'.", m_storage), false);
+        sendMessage(i18n("Could not open file ‘%1’.", m_storage), false);
         return;
     }
     QJsonObject json;
@@ -167,7 +167,7 @@ bool KeyboardMacrosPlugin::eventFilter(QObject *obj, QEvent *event)
             // this can result in unexpected things if this action gets recorded because when the user
             // plays the macro -> it will try to save the macro
             // give a hint to the user that they must end the recording first
-            displayMessage(i18n("Can't save macro during recording. Please end recoding first"), KTextEditor::Message::Warning, /*noAutoHide=*/true);
+            displayMessage(i18n("Can’t save macro during recording. Please end recording first"), KTextEditor::Message::Warning, /*noAutoHide=*/true);
             return false;
         }
 
@@ -238,7 +238,7 @@ void KeyboardMacrosPlugin::record()
     connect(qApp, &QGuiApplication::applicationStateChanged, this, &KeyboardMacrosPlugin::applicationStateChanged);
     connect(qApp, &QGuiApplication::focusObjectChanged, this, &KeyboardMacrosPlugin::focusObjectChanged);
     // display feedback
-    displayMessage(i18n("Recording…"), KTextEditor::Message::Information);
+    displayMessage(i18nc("@info:progress Macro is being recorded right now", "Recording…"), KTextEditor::Message::Information);
 }
 
 void KeyboardMacrosPlugin::cancel()
@@ -274,7 +274,10 @@ void KeyboardMacrosPlugin::stop(bool save)
     disconnect(qApp, &QGuiApplication::applicationStateChanged, this, &KeyboardMacrosPlugin::applicationStateChanged);
     disconnect(qApp, &QGuiApplication::focusObjectChanged, this, &KeyboardMacrosPlugin::focusObjectChanged);
     // display feedback
-    displayMessage(i18n("Recording %1", (save ? i18n("ended") : i18n("canceled"))), KTextEditor::Message::Positive);
+    displayMessage(
+        save ? i18n("Recording ended")
+             : i18n("Recording canceled"),
+        KTextEditor::Message::Positive);
 }
 
 bool KeyboardMacrosPlugin::play(const QString &name)
@@ -324,7 +327,7 @@ bool KeyboardMacrosPlugin::save(const QString &name)
         pluginView->addNamedMacro(name, m_macro.toString());
     }
     // display feedback
-    displayMessage(i18n("Saved '%1'", name), KTextEditor::Message::Positive);
+    displayMessage(i18nc("%1 is the name of a keyboard macro", "Saved ‘%1’", name), KTextEditor::Message::Positive);
     return true;
 }
 
@@ -344,7 +347,7 @@ bool KeyboardMacrosPlugin::load(const QString &name)
         pluginView->macroLoaded(true);
     }
     // display feedback
-    displayMessage(i18n("Loaded '%1'", name), KTextEditor::Message::Positive);
+    displayMessage(i18nc("%1 is the name of a keyboard macro", "Loaded ‘%1’", name), KTextEditor::Message::Positive);
     return true;
 }
 
@@ -362,7 +365,7 @@ bool KeyboardMacrosPlugin::wipe(const QString &name)
         pluginView->removeNamedMacro(name);
     }
     // display feedback
-    displayMessage(i18n("Wiped '%1'", name), KTextEditor::Message::Positive);
+    displayMessage(i18nc("%1 is the name of a keyboard macro", "Wiped ‘%1’", name), KTextEditor::Message::Positive);
     return true;
 }
 

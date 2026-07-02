@@ -38,7 +38,7 @@ KeyboardMacrosPluginView::KeyboardMacrosPluginView(KeyboardMacrosPlugin *plugin,
 
     // create record action
     m_recordAction = actionCollection()->addAction(QStringLiteral("keyboardmacros_record"));
-    m_recordAction->setText(i18n("&Record Macro..."));
+    m_recordAction->setText(i18n("&Record Macro…"));
     m_recordAction->setIcon(QIcon::fromTheme(QStringLiteral("media-record")));
     m_recordAction->setToolTip(i18n("Start/stop recording a macro (i.e., keyboard action sequence)."));
     KActionCollection::setDefaultShortcut(m_recordAction, QKeySequence(QStringLiteral("Ctrl+Shift+K"), QKeySequence::PortableText));
@@ -87,7 +87,7 @@ KeyboardMacrosPluginView::KeyboardMacrosPluginView(KeyboardMacrosPlugin *plugin,
     menu->addSeparator();
 
     // create load named menu
-    m_loadMenu = new KActionMenu(i18n("&Load Named Macro..."), menu);
+    m_loadMenu = new KActionMenu(i18n("&Load Named Macro…"), menu);
     m_loadMenu->setIcon(QIcon::fromTheme(QStringLiteral("view-refresh")));
     actionCollection()->addAction(QStringLiteral("keyboardmacros_named_load"), m_loadMenu);
     m_loadMenu->setToolTip(i18n("Load a named macro as the current one."));
@@ -95,7 +95,7 @@ KeyboardMacrosPluginView::KeyboardMacrosPluginView(KeyboardMacrosPlugin *plugin,
     menu->addAction(m_loadMenu);
 
     // create play named menu
-    m_playMenu = new KActionMenu(i18n("&Play Named Macro..."), menu);
+    m_playMenu = new KActionMenu(i18n("&Play Named Macro…"), menu);
     m_playMenu->setIcon(QIcon::fromTheme(QStringLiteral("auto-type")));
     actionCollection()->addAction(QStringLiteral("keyboardmacros_named_play"), m_playMenu);
     m_playMenu->setToolTip(i18n("Play a named macro without loading it."));
@@ -103,7 +103,7 @@ KeyboardMacrosPluginView::KeyboardMacrosPluginView(KeyboardMacrosPlugin *plugin,
     menu->addAction(m_playMenu);
 
     // create wipe named menu
-    m_wipeMenu = new KActionMenu(i18n("&Wipe Named Macro..."), menu);
+    m_wipeMenu = new KActionMenu(i18n("&Wipe Named Macro…"), menu);
     m_wipeMenu->setIcon(QIcon::fromTheme(QStringLiteral("delete")));
     actionCollection()->addAction(QStringLiteral("keyboardmacros_named_wipe"), m_wipeMenu);
     m_wipeMenu->setToolTip(i18n("Wipe a named macro."));
@@ -160,7 +160,7 @@ void KeyboardMacrosPluginView::recordingOn()
 
 void KeyboardMacrosPluginView::recordingOff()
 {
-    m_recordAction->setText(i18n("&Record Macro..."));
+    m_recordAction->setText(i18n("&Record Macro…"));
     m_recordAction->setIcon(QIcon::fromTheme(QStringLiteral("media-record")));
     m_cancelAction->setEnabled(false);
 }
@@ -177,8 +177,8 @@ void KeyboardMacrosPluginView::addNamedMacro(const QString &name, const QString 
     QString label = KLocalizedString::removeAcceleratorMarker(KStringHandler::rsqueeze(name + QStringLiteral(": ") + description, 50));
 
     // add load action
-    auto action = new QAction(i18n("Load %1", label), this);
-    action->setToolTip(i18n("Load the '%1' macro as the current one.", name));
+    auto action = new QAction(i18nc("%1 is the name of a keyboard macro", "Load %1", label), this);
+    action->setToolTip(i18nc("%1 is the name of a keyboard macro", "Load the ‘%1’ macro as the current one.", name));
     action->setEnabled(true);
     connect(action, &QAction::triggered, m_plugin, [this, name] {
         slotLoadNamed(name);
@@ -190,8 +190,8 @@ void KeyboardMacrosPluginView::addNamedMacro(const QString &name, const QString 
     m_loadMenu->setEnabled(true);
 
     // add play action
-    action = new QAction(i18n("Play %1", label), this);
-    action->setToolTip(i18n("Play the '%1' macro without loading it.", name));
+    action = new QAction(i18nc("%1 is the name of a keyboard macro", "Play %1", label), this);
+    action->setToolTip(i18nc("%1 is the name of a keyboard macro", "Play the ‘%1’ macro without loading it.", name));
     action->setEnabled(true);
     connect(action, &QAction::triggered, m_plugin, [this, name] {
         slotPlayNamed(name);
@@ -205,8 +205,8 @@ void KeyboardMacrosPluginView::addNamedMacro(const QString &name, const QString 
     m_playMenu->setEnabled(true);
 
     // add wipe action
-    action = new QAction(i18n("Wipe %1", label), this);
-    action->setToolTip(i18n("Wipe the '%1' macro.", name));
+    action = new QAction(i18nc("%1 is the name of a keyboard macro", "Wipe %1", label), this);
+    action->setToolTip(i18nc("%1 is the name of a keyboard macro", "Wipe the ‘%1’ macro.", name));
     action->setEnabled(true);
     connect(action, &QAction::triggered, m_plugin, [this, name] {
         slotWipeNamed(name);
@@ -320,7 +320,7 @@ void KeyboardMacrosPluginView::slotWipeNamed(const QString &name)
     if (m_plugin->m_recording) {
         return;
     }
-    if (QMessageBox::question(m_mainWindow->window(), i18n("Keyboard Macros"), i18n("Wipe the '%1' macro?", name)) != QMessageBox::Yes) {
+    if (QMessageBox::question(m_mainWindow->window(), i18n("Keyboard Macros"), i18nc("%1 is the name of a keyboard macro", "Wipe the ‘%1’ macro?", name)) != QMessageBox::Yes) {
         return;
     }
     m_plugin->wipe(name);
