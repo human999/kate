@@ -124,6 +124,7 @@ private:
     QColor green1;
     QColor green2;
     QColor hunkSeparatorColor;
+    QColor hunkHighlightColor;
     class LineNumArea *const m_lineNumArea;
     class DiffWidget *const m_diffWidget;
     DiffParams::Flags m_flags;

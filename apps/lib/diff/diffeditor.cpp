@@ -65,6 +65,7 @@ DiffEditor::DiffEditor(DiffParams::Flags f, QWidget *parent)
         auto fg = QColor::fromRgba(theme.textColor(Theme::TextStyle::Normal));
         auto sel = QColor::fromRgba(theme.editorColor(Theme::EditorColorRole::TextSelection));
         hunkSeparatorColor = QColor::fromRgba(theme.textColor(Theme::TextStyle::Keyword));
+        hunkHighlightColor = QColor::fromRgba(theme.editorColor(Theme::EditorColorRole::SearchHighlight));
         auto pal = palette();
         pal.setColor(QPalette::Base, bg);
         pal.setColor(QPalette::Text, fg);
@@ -94,8 +95,9 @@ DiffEditor::DiffEditor(DiffParams::Flags f, QWidget *parent)
 
     setReadOnly(true);
 
-    m_timeLine.setDuration(1000);
+    m_timeLine.setDuration(2000);
     m_timeLine.setFrameRange(0, 250);
+    m_timeLine.setEasingCurve(QEasingCurve::OutCubic);
     connect(&m_timeLine, &QTimeLine::frameChanged, this, [this](int) {
         if (!m_animateTextRect.isNull()) {
             viewport()->update(m_animateTextRect);
@@ -435,9 +437,8 @@ void DiffEditor::paintEvent(QPaintEvent *e)
         }
 
         if (m_animateTextRect.contains(offset.toPoint())) {
-            QColor c(Qt::red);
-            c.setAlpha(m_timeLine.currentFrame());
-            p.fillRect(m_animateTextRect, c);
+            hunkHighlightColor.setAlpha(m_timeLine.endFrame() - m_timeLine.currentFrame());
+            p.fillRect(m_animateTextRect, hunkHighlightColor);
         }
 
         if (block.blockNumber() == cursorBlock && block.layout()) {
