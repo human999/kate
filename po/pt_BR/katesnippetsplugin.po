@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katesnippetsplugin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-12 00:48+0000\n"
+"POT-Creation-Date: 2026-07-04 00:47+0000\n"
 "PO-Revision-Date: 2025-08-04 13:26-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -235,17 +235,17 @@ msgstr "Trechos"
 msgid "Create Snippet"
 msgstr "Criar trecho"
 
-#: snippet.cpp:23
+#: snippet.cpp:22
 #, kde-format
 msgid "<empty snippet>"
 msgstr "<trecho em branco>"
 
-#: snippet.cpp:92
+#: snippet.cpp:91
 #, kde-format
 msgid "insert snippet %1"
 msgstr "inserir o trecho: %1"
 
-#: snippet.cpp:109
+#: snippet.cpp:108
 #, kde-format
 msgid ""
 "Kate needs to be compiled against KTExtEditor version 6.15.0 or higher, to "

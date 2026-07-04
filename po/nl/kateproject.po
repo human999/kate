@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-17 00:47+0000\n"
+"POT-Creation-Date: 2026-07-04 00:47+0000\n"
 "PO-Revision-Date: 2026-05-15 14:30+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -87,7 +87,7 @@ msgstr[1] "Wilt u de geselecteerde branches verwijderen?"
 msgid "Select Branch..."
 msgstr "Branch selecteren..."
 
-#: branchesdialog.cpp:108 gitwidget.cpp:550 kateprojectpluginview.cpp:74
+#: branchesdialog.cpp:108 gitwidget.cpp:550 kateprojectpluginview.cpp:72
 #, kde-format
 msgid "Git"
 msgstr "Git"
@@ -545,8 +545,8 @@ msgstr "(Staged)"
 msgid "Malformed JSON file '%1': %2"
 msgstr "Misvormd JSON-bestand '%1': %2"
 
-#: kateproject.cpp:424 kateprojectplugin.cpp:826 kateprojectpluginview.cpp:79
-#: kateprojectpluginview.cpp:235 kateprojectviewtree.cpp:367
+#: kateproject.cpp:424 kateprojectplugin.cpp:826 kateprojectpluginview.cpp:77
+#: kateprojectpluginview.cpp:233 kateprojectviewtree.cpp:367
 #: kateprojectviewtree.cpp:378 kateprojectviewtree.cpp:408
 #: kateprojectviewtree.cpp:415
 #, kde-format
@@ -750,7 +750,7 @@ msgstr "In stage zetten / uit stage halen"
 msgid "Double click action in the git status view"
 msgstr "Actie met een dubbelklik in de git statusweergave"
 
-#: kateprojectconfigpage.cpp:165 kateprojectpluginview.cpp:73
+#: kateprojectconfigpage.cpp:165 kateprojectpluginview.cpp:71
 #, kde-format
 msgid "Projects"
 msgstr "Projecten"
@@ -924,102 +924,102 @@ msgstr ""
 "Volledige pad naar huidig project exclusief bestandsnaam, met inheems "
 "scheidingsteken van pad (backslash op Windows)."
 
-#: kateprojectpluginview.cpp:63
+#: kateprojectpluginview.cpp:61
 #, kde-format
 msgid "Project Manager"
 msgstr "Projectbeheerder"
 
-#: kateprojectpluginview.cpp:84
+#: kateprojectpluginview.cpp:82
 #, kde-format
 msgid "Current Project"
 msgstr "Huidige project"
 
-#: kateprojectpluginview.cpp:86
+#: kateprojectpluginview.cpp:84
 #, kde-format
 msgid "Open projects list"
 msgstr "Open lijst met projecten"
 
-#: kateprojectpluginview.cpp:94
+#: kateprojectpluginview.cpp:92
 #, kde-format
 msgid "Reload project"
 msgstr "Project opnieuw laden"
 
-#: kateprojectpluginview.cpp:97
+#: kateprojectpluginview.cpp:95
 #, kde-format
 msgid "Close project"
 msgstr "Project sluiten"
 
-#: kateprojectpluginview.cpp:173
+#: kateprojectpluginview.cpp:171
 #, kde-format
 msgid "Open &Folder..."
 msgstr "&Map openen..."
 
-#: kateprojectpluginview.cpp:179
+#: kateprojectpluginview.cpp:177
 #, kde-format
 msgid "Project TODOs"
 msgstr "Te-doens in project"
 
-#: kateprojectpluginview.cpp:184
+#: kateprojectpluginview.cpp:182
 #, kde-format
 msgid "Activate Previous Project"
 msgstr "Vorig project activeren"
 
-#: kateprojectpluginview.cpp:190
+#: kateprojectpluginview.cpp:188
 #, kde-format
 msgid "Activate Next Project"
 msgstr "Volgend project activeren"
 
-#: kateprojectpluginview.cpp:196
+#: kateprojectpluginview.cpp:194
 #, kde-format
 msgid "Lookup"
 msgstr "Opzoeken"
 
-#: kateprojectpluginview.cpp:201
+#: kateprojectpluginview.cpp:199
 #, kde-format
 msgid "Close Project"
 msgstr "Project sluiten"
 
-#: kateprojectpluginview.cpp:206
+#: kateprojectpluginview.cpp:204
 #, kde-format
 msgid "Close All Projects"
 msgstr "Alle projecten sluiten"
 
-#: kateprojectpluginview.cpp:211
+#: kateprojectpluginview.cpp:209
 #, kde-format
 msgid "Close Orphaned Projects"
 msgstr "Verweesde projecten sluiten"
 
-#: kateprojectpluginview.cpp:216
+#: kateprojectpluginview.cpp:214
 #, kde-format
 msgid "Reload Project"
 msgstr "Project opnieuw laden"
 
-#: kateprojectpluginview.cpp:221
+#: kateprojectpluginview.cpp:219
 #, kde-format
 msgid "Reload All Projects"
 msgstr "Alle projecten herladen"
 
-#: kateprojectpluginview.cpp:232
+#: kateprojectpluginview.cpp:230
 #, kde-format
 msgid "Checkout Git Branch"
 msgstr "Uitchecken van git-branch"
 
-#: kateprojectpluginview.cpp:238 kateprojectpluginview.cpp:847
+#: kateprojectpluginview.cpp:236 kateprojectpluginview.cpp:845
 #, kde-format
 msgid "Lookup: %1"
 msgstr "Opzoeken: %1"
 
-#: kateprojectpluginview.cpp:239 kateprojectpluginview.cpp:848
+#: kateprojectpluginview.cpp:237 kateprojectpluginview.cpp:846
 #, kde-format
 msgid "Goto: %1"
 msgstr "Ga-naar: %1"
 
-#: kateprojectpluginview.cpp:318
+#: kateprojectpluginview.cpp:316
 #, kde-format
 msgid "Projects Index"
 msgstr "Project-index"
 
-#: kateprojectpluginview.cpp:892
+#: kateprojectpluginview.cpp:890
 #, kde-format
 msgid "Choose a directory"
 msgstr "Een map kiezen"

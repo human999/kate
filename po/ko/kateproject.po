@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-17 00:47+0000\n"
+"POT-Creation-Date: 2026-07-04 00:47+0000\n"
 "PO-Revision-Date: 2026-05-25 19:05+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -83,7 +83,7 @@ msgstr[0] "선택한 브랜치를 삭제하시겠습니까?"
 msgid "Select Branch..."
 msgstr "브랜치 선택..."
 
-#: branchesdialog.cpp:108 gitwidget.cpp:550 kateprojectpluginview.cpp:74
+#: branchesdialog.cpp:108 gitwidget.cpp:550 kateprojectpluginview.cpp:72
 #, kde-format
 msgid "Git"
 msgstr "Git"
@@ -541,8 +541,8 @@ msgstr "(스테이지됨)"
 msgid "Malformed JSON file '%1': %2"
 msgstr "잘못된 JSON 파일 '%1': %2"
 
-#: kateproject.cpp:424 kateprojectplugin.cpp:826 kateprojectpluginview.cpp:79
-#: kateprojectpluginview.cpp:235 kateprojectviewtree.cpp:367
+#: kateproject.cpp:424 kateprojectplugin.cpp:826 kateprojectpluginview.cpp:77
+#: kateprojectpluginview.cpp:233 kateprojectviewtree.cpp:367
 #: kateprojectviewtree.cpp:378 kateprojectviewtree.cpp:408
 #: kateprojectviewtree.cpp:415
 #, kde-format
@@ -743,7 +743,7 @@ msgstr "스테이지/해제"
 msgid "Double click action in the git status view"
 msgstr "git 상태 보기에서 두 번 클릭했을 때 동작"
 
-#: kateprojectconfigpage.cpp:165 kateprojectpluginview.cpp:73
+#: kateprojectconfigpage.cpp:165 kateprojectpluginview.cpp:71
 #, kde-format
 msgid "Projects"
 msgstr "프로젝트"
@@ -915,102 +915,102 @@ msgstr ""
 "네이티브 경로 구분자를 사용하는 파일 이름을 제외한 현재 프로젝트의 전체 경로"
 "입니다(Windows의 경우 백슬래시)."
 
-#: kateprojectpluginview.cpp:63
+#: kateprojectpluginview.cpp:61
 #, kde-format
 msgid "Project Manager"
 msgstr "프로젝트 관리자"
 
-#: kateprojectpluginview.cpp:84
+#: kateprojectpluginview.cpp:82
 #, kde-format
 msgid "Current Project"
 msgstr "현재 프로젝트"
 
-#: kateprojectpluginview.cpp:86
+#: kateprojectpluginview.cpp:84
 #, kde-format
 msgid "Open projects list"
 msgstr "열린 프로젝트 목록"
 
-#: kateprojectpluginview.cpp:94
+#: kateprojectpluginview.cpp:92
 #, kde-format
 msgid "Reload project"
 msgstr "프로젝트 새로 고침"
 
-#: kateprojectpluginview.cpp:97
+#: kateprojectpluginview.cpp:95
 #, kde-format
 msgid "Close project"
 msgstr "프로젝트 닫기"
 
-#: kateprojectpluginview.cpp:173
+#: kateprojectpluginview.cpp:171
 #, kde-format
 msgid "Open &Folder..."
 msgstr "폴더 열기(&F)..."
 
-#: kateprojectpluginview.cpp:179
+#: kateprojectpluginview.cpp:177
 #, kde-format
 msgid "Project TODOs"
 msgstr "프로젝트 TODO 목록"
 
-#: kateprojectpluginview.cpp:184
+#: kateprojectpluginview.cpp:182
 #, kde-format
 msgid "Activate Previous Project"
 msgstr "이전 프로젝트 활성화"
 
-#: kateprojectpluginview.cpp:190
+#: kateprojectpluginview.cpp:188
 #, kde-format
 msgid "Activate Next Project"
 msgstr "다음 프로젝트 활성화"
 
-#: kateprojectpluginview.cpp:196
+#: kateprojectpluginview.cpp:194
 #, kde-format
 msgid "Lookup"
 msgstr "찾아보기"
 
-#: kateprojectpluginview.cpp:201
+#: kateprojectpluginview.cpp:199
 #, kde-format
 msgid "Close Project"
 msgstr "프로젝트 닫기"
 
-#: kateprojectpluginview.cpp:206
+#: kateprojectpluginview.cpp:204
 #, kde-format
 msgid "Close All Projects"
 msgstr "모든 프로젝트 닫기"
 
-#: kateprojectpluginview.cpp:211
+#: kateprojectpluginview.cpp:209
 #, kde-format
 msgid "Close Orphaned Projects"
 msgstr "접근 불가능한 프로젝트 닫기"
 
-#: kateprojectpluginview.cpp:216
+#: kateprojectpluginview.cpp:214
 #, kde-format
 msgid "Reload Project"
 msgstr "프로젝트 새로 고침"
 
-#: kateprojectpluginview.cpp:221
+#: kateprojectpluginview.cpp:219
 #, kde-format
 msgid "Reload All Projects"
 msgstr "모든 프로젝트 새로 고침"
 
-#: kateprojectpluginview.cpp:232
+#: kateprojectpluginview.cpp:230
 #, kde-format
 msgid "Checkout Git Branch"
 msgstr "Git 브랜치 체크아웃"
 
-#: kateprojectpluginview.cpp:238 kateprojectpluginview.cpp:847
+#: kateprojectpluginview.cpp:236 kateprojectpluginview.cpp:845
 #, kde-format
 msgid "Lookup: %1"
 msgstr "찾아보기: %1"
 
-#: kateprojectpluginview.cpp:239 kateprojectpluginview.cpp:848
+#: kateprojectpluginview.cpp:237 kateprojectpluginview.cpp:846
 #, kde-format
 msgid "Goto: %1"
 msgstr "이동: %1"
 
-#: kateprojectpluginview.cpp:318
+#: kateprojectpluginview.cpp:316
 #, kde-format
 msgid "Projects Index"
 msgstr "프로젝트 색인"
 
-#: kateprojectpluginview.cpp:892
+#: kateprojectpluginview.cpp:890
 #, kde-format
 msgid "Choose a directory"
 msgstr "디렉터리 선택"

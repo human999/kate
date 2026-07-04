@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-17 00:47+0000\n"
+"POT-Creation-Date: 2026-07-04 00:47+0000\n"
 "PO-Revision-Date: 2026-05-15 04:15+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -85,7 +85,7 @@ msgstr[1] "დარწმუნებული ბრძანდებით, 
 msgid "Select Branch..."
 msgstr "აირჩიეთ ბრენჩი..."
 
-#: branchesdialog.cpp:108 gitwidget.cpp:550 kateprojectpluginview.cpp:74
+#: branchesdialog.cpp:108 gitwidget.cpp:550 kateprojectpluginview.cpp:72
 #, kde-format
 msgid "Git"
 msgstr "Git"
@@ -544,8 +544,8 @@ msgstr "(შუალედური შენახვით)"
 msgid "Malformed JSON file '%1': %2"
 msgstr "არასწორი JSON ფაილი '%1': %2"
 
-#: kateproject.cpp:424 kateprojectplugin.cpp:826 kateprojectpluginview.cpp:79
-#: kateprojectpluginview.cpp:235 kateprojectviewtree.cpp:367
+#: kateproject.cpp:424 kateprojectplugin.cpp:826 kateprojectpluginview.cpp:77
+#: kateprojectpluginview.cpp:233 kateprojectviewtree.cpp:367
 #: kateprojectviewtree.cpp:378 kateprojectviewtree.cpp:408
 #: kateprojectviewtree.cpp:415
 #, kde-format
@@ -746,7 +746,7 @@ msgstr "შუალედური შენახვის გამოყე�
 msgid "Double click action in the git status view"
 msgstr "ორმაგი წკაპი ქმედებაზე git-ის სტატუსის ხედში"
 
-#: kateprojectconfigpage.cpp:165 kateprojectpluginview.cpp:73
+#: kateprojectconfigpage.cpp:165 kateprojectpluginview.cpp:71
 #, kde-format
 msgid "Projects"
 msgstr "პროექტები"
@@ -918,102 +918,102 @@ msgstr ""
 "სრული პროექტის ბილიკი სახელის არჩათვლით, სისტემის ბილიკის გამყოფით ('\\' "
 "Windows-ზე)."
 
-#: kateprojectpluginview.cpp:63
+#: kateprojectpluginview.cpp:61
 #, kde-format
 msgid "Project Manager"
 msgstr "პროექტის მმართველი"
 
-#: kateprojectpluginview.cpp:84
+#: kateprojectpluginview.cpp:82
 #, kde-format
 msgid "Current Project"
 msgstr "მიმდინარე პროექტი"
 
-#: kateprojectpluginview.cpp:86
+#: kateprojectpluginview.cpp:84
 #, kde-format
 msgid "Open projects list"
 msgstr "ღია პროექტების სია"
 
-#: kateprojectpluginview.cpp:94
+#: kateprojectpluginview.cpp:92
 #, kde-format
 msgid "Reload project"
 msgstr "პროექტის თავიდან ჩატვირთვა"
 
-#: kateprojectpluginview.cpp:97
+#: kateprojectpluginview.cpp:95
 #, kde-format
 msgid "Close project"
 msgstr "პროექტის დახურვა"
 
-#: kateprojectpluginview.cpp:173
+#: kateprojectpluginview.cpp:171
 #, kde-format
 msgid "Open &Folder..."
 msgstr "საქაღალდის &გახსნა..."
 
-#: kateprojectpluginview.cpp:179
+#: kateprojectpluginview.cpp:177
 #, kde-format
 msgid "Project TODOs"
 msgstr "პროექტის გეგმები"
 
-#: kateprojectpluginview.cpp:184
+#: kateprojectpluginview.cpp:182
 #, kde-format
 msgid "Activate Previous Project"
 msgstr "წინა პროექტის გააქტიურება"
 
-#: kateprojectpluginview.cpp:190
+#: kateprojectpluginview.cpp:188
 #, kde-format
 msgid "Activate Next Project"
 msgstr "შემდეგი პროექტის გააქტიურება"
 
-#: kateprojectpluginview.cpp:196
+#: kateprojectpluginview.cpp:194
 #, kde-format
 msgid "Lookup"
 msgstr "ამოხსნა"
 
-#: kateprojectpluginview.cpp:201
+#: kateprojectpluginview.cpp:199
 #, kde-format
 msgid "Close Project"
 msgstr "პროექტის დახურვა"
 
-#: kateprojectpluginview.cpp:206
+#: kateprojectpluginview.cpp:204
 #, kde-format
 msgid "Close All Projects"
 msgstr "ყველა პროექტის დახურვა"
 
-#: kateprojectpluginview.cpp:211
+#: kateprojectpluginview.cpp:209
 #, kde-format
 msgid "Close Orphaned Projects"
 msgstr "მიტოვებული პროექტების დახურვა"
 
-#: kateprojectpluginview.cpp:216
+#: kateprojectpluginview.cpp:214
 #, kde-format
 msgid "Reload Project"
 msgstr "პროექტის თავიდან ჩატვირთვა"
 
-#: kateprojectpluginview.cpp:221
+#: kateprojectpluginview.cpp:219
 #, kde-format
 msgid "Reload All Projects"
 msgstr "ყველა პროექტის თავიდან ჩატვირთვა"
 
-#: kateprojectpluginview.cpp:232
+#: kateprojectpluginview.cpp:230
 #, kde-format
 msgid "Checkout Git Branch"
 msgstr "Git-ის ბრენჩის გამოთხოვა"
 
-#: kateprojectpluginview.cpp:238 kateprojectpluginview.cpp:847
+#: kateprojectpluginview.cpp:236 kateprojectpluginview.cpp:845
 #, kde-format
 msgid "Lookup: %1"
 msgstr "მოძებნა: %1"
 
-#: kateprojectpluginview.cpp:239 kateprojectpluginview.cpp:848
+#: kateprojectpluginview.cpp:237 kateprojectpluginview.cpp:846
 #, kde-format
 msgid "Goto: %1"
 msgstr "გადასვლა: %1"
 
-#: kateprojectpluginview.cpp:318
+#: kateprojectpluginview.cpp:316
 #, kde-format
 msgid "Projects Index"
 msgstr "პროექტის ინდექსი"
 
-#: kateprojectpluginview.cpp:892
+#: kateprojectpluginview.cpp:890
 #, kde-format
 msgid "Choose a directory"
 msgstr "აირჩიეთ საქაღალდე"

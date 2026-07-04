@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kateproject\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-17 00:47+0000\n"
+"POT-Creation-Date: 2026-07-04 00:47+0000\n"
 "PO-Revision-Date: 2026-05-15 09:49+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -89,7 +89,7 @@ msgstr[3] "למחוק את הענפים הנבחרים?"
 msgid "Select Branch..."
 msgstr "בחירת ענף…"
 
-#: branchesdialog.cpp:108 gitwidget.cpp:550 kateprojectpluginview.cpp:74
+#: branchesdialog.cpp:108 gitwidget.cpp:550 kateprojectpluginview.cpp:72
 #, kde-format
 msgid "Git"
 msgstr "Git"
@@ -546,8 +546,8 @@ msgstr "(בימוי)"
 msgid "Malformed JSON file '%1': %2"
 msgstr "קובץ ה־JSON‏ ‚%1’ פגום: %2"
 
-#: kateproject.cpp:424 kateprojectplugin.cpp:826 kateprojectpluginview.cpp:79
-#: kateprojectpluginview.cpp:235 kateprojectviewtree.cpp:367
+#: kateproject.cpp:424 kateprojectplugin.cpp:826 kateprojectpluginview.cpp:77
+#: kateprojectpluginview.cpp:233 kateprojectviewtree.cpp:367
 #: kateprojectviewtree.cpp:378 kateprojectviewtree.cpp:408
 #: kateprojectviewtree.cpp:415
 #, kde-format
@@ -746,7 +746,7 @@ msgstr "העלאה/הורדה מבימוי"
 msgid "Double click action in the git status view"
 msgstr "פעולה לחיצה כפולה בתצוגת מצב ה־git"
 
-#: kateprojectconfigpage.cpp:165 kateprojectpluginview.cpp:73
+#: kateprojectconfigpage.cpp:165 kateprojectpluginview.cpp:71
 #, kde-format
 msgid "Projects"
 msgstr "מיזמים"
@@ -919,102 +919,102 @@ msgstr ""
 "נתיב מלא למיזם הנוכחי כולל שם הקובץ, עם מפריד הנתיבים הטבעי (לוכסן הפוך ב־"
 "Windows)."
 
-#: kateprojectpluginview.cpp:63
+#: kateprojectpluginview.cpp:61
 #, kde-format
 msgid "Project Manager"
 msgstr "הנהלת המיזם"
 
-#: kateprojectpluginview.cpp:84
+#: kateprojectpluginview.cpp:82
 #, kde-format
 msgid "Current Project"
 msgstr "המיזם הנוכחי"
 
-#: kateprojectpluginview.cpp:86
+#: kateprojectpluginview.cpp:84
 #, kde-format
 msgid "Open projects list"
 msgstr "פתיחת רשימת מיזמים"
 
-#: kateprojectpluginview.cpp:94
+#: kateprojectpluginview.cpp:92
 #, kde-format
 msgid "Reload project"
 msgstr "ריענון המיזם"
 
-#: kateprojectpluginview.cpp:97
+#: kateprojectpluginview.cpp:95
 #, kde-format
 msgid "Close project"
 msgstr "סגירת המיזם"
 
-#: kateprojectpluginview.cpp:173
+#: kateprojectpluginview.cpp:171
 #, kde-format
 msgid "Open &Folder..."
 msgstr "&פתיחת תיקייה…"
 
-#: kateprojectpluginview.cpp:179
+#: kateprojectpluginview.cpp:177
 #, kde-format
 msgid "Project TODOs"
 msgstr "המטלות של המיזם"
 
-#: kateprojectpluginview.cpp:184
+#: kateprojectpluginview.cpp:182
 #, kde-format
 msgid "Activate Previous Project"
 msgstr "הפעלת המיזם הקודם"
 
-#: kateprojectpluginview.cpp:190
+#: kateprojectpluginview.cpp:188
 #, kde-format
 msgid "Activate Next Project"
 msgstr "הפעלת המיזם הבא"
 
-#: kateprojectpluginview.cpp:196
+#: kateprojectpluginview.cpp:194
 #, kde-format
 msgid "Lookup"
 msgstr "איתור"
 
-#: kateprojectpluginview.cpp:201
+#: kateprojectpluginview.cpp:199
 #, kde-format
 msgid "Close Project"
 msgstr "סגירת המיזם"
 
-#: kateprojectpluginview.cpp:206
+#: kateprojectpluginview.cpp:204
 #, kde-format
 msgid "Close All Projects"
 msgstr "סגירת כל המיזמים"
 
-#: kateprojectpluginview.cpp:211
+#: kateprojectpluginview.cpp:209
 #, kde-format
 msgid "Close Orphaned Projects"
 msgstr "סגירת מיזמים יתומים"
 
-#: kateprojectpluginview.cpp:216
+#: kateprojectpluginview.cpp:214
 #, kde-format
 msgid "Reload Project"
 msgstr "ריענון מיזם"
 
-#: kateprojectpluginview.cpp:221
+#: kateprojectpluginview.cpp:219
 #, kde-format
 msgid "Reload All Projects"
 msgstr "ריענון כל המיזמים"
 
-#: kateprojectpluginview.cpp:232
+#: kateprojectpluginview.cpp:230
 #, kde-format
 msgid "Checkout Git Branch"
 msgstr "משיכת ענף Git"
 
-#: kateprojectpluginview.cpp:238 kateprojectpluginview.cpp:847
+#: kateprojectpluginview.cpp:236 kateprojectpluginview.cpp:845
 #, kde-format
 msgid "Lookup: %1"
 msgstr "איתור: %1"
 
-#: kateprojectpluginview.cpp:239 kateprojectpluginview.cpp:848
+#: kateprojectpluginview.cpp:237 kateprojectpluginview.cpp:846
 #, kde-format
 msgid "Goto: %1"
 msgstr "מעבר אל: %1"
 
-#: kateprojectpluginview.cpp:318
+#: kateprojectpluginview.cpp:316
 #, kde-format
 msgid "Projects Index"
 msgstr "מפתח מיזמים"
 
-#: kateprojectpluginview.cpp:892
+#: kateprojectpluginview.cpp:890
 #, kde-format
 msgid "Choose a directory"
 msgstr "בחירת תיקייה"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Frameworks 5 Applications\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-17 00:47+0000\n"
+"POT-Creation-Date: 2026-07-04 00:47+0000\n"
 "PO-Revision-Date: 2024-10-03 20:40+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -89,7 +89,7 @@ msgstr[1] "Apakah kamu yakin ingin menghapus file-file tersebut?"
 msgid "Select Branch..."
 msgstr "Pilih Cabang..."
 
-#: branchesdialog.cpp:108 gitwidget.cpp:550 kateprojectpluginview.cpp:74
+#: branchesdialog.cpp:108 gitwidget.cpp:550 kateprojectpluginview.cpp:72
 #, kde-format
 msgid "Git"
 msgstr "Git"
@@ -570,8 +570,8 @@ msgstr "Di-stage"
 msgid "Malformed JSON file '%1': %2"
 msgstr ""
 
-#: kateproject.cpp:424 kateprojectplugin.cpp:826 kateprojectpluginview.cpp:79
-#: kateprojectpluginview.cpp:235 kateprojectviewtree.cpp:367
+#: kateproject.cpp:424 kateprojectplugin.cpp:826 kateprojectpluginview.cpp:77
+#: kateprojectpluginview.cpp:233 kateprojectviewtree.cpp:367
 #: kateprojectviewtree.cpp:378 kateprojectviewtree.cpp:408
 #: kateprojectviewtree.cpp:415
 #, kde-format
@@ -770,7 +770,7 @@ msgstr "Stage / Unstage"
 msgid "Double click action in the git status view"
 msgstr "Aksi klik ganda dalam tampilan status git"
 
-#: kateprojectconfigpage.cpp:165 kateprojectpluginview.cpp:73
+#: kateprojectconfigpage.cpp:165 kateprojectpluginview.cpp:71
 #, kde-format
 msgid "Projects"
 msgstr "Projek"
@@ -957,113 +957,113 @@ msgstr ""
 "Alur lengkap ke projek saat ini tidak termasuk nama file, dengan pemisah "
 "alur asli (garis-miring-terbalik pada Windows)."
 
-#: kateprojectpluginview.cpp:63
+#: kateprojectpluginview.cpp:61
 #, fuzzy, kde-format
 #| msgid "Kate Project Manager"
 msgid "Project Manager"
 msgstr "Manager Projek Kate"
 
-#: kateprojectpluginview.cpp:84
+#: kateprojectpluginview.cpp:82
 #, fuzzy, kde-format
 #| msgid "Current Project"
 msgid "Current Project"
 msgstr "Projek Sekarang"
 
-#: kateprojectpluginview.cpp:86
+#: kateprojectpluginview.cpp:84
 #, fuzzy, kde-format
 #| msgid "Current Project"
 msgid "Open projects list"
 msgstr "Projek Sekarang"
 
-#: kateprojectpluginview.cpp:94
+#: kateprojectpluginview.cpp:92
 #, fuzzy, kde-format
 #| msgid "Current Project"
 msgid "Reload project"
 msgstr "Projek Sekarang"
 
-#: kateprojectpluginview.cpp:97
+#: kateprojectpluginview.cpp:95
 #, fuzzy, kde-format
 #| msgid "Current Project"
 msgid "Close project"
 msgstr "Projek Sekarang"
 
-#: kateprojectpluginview.cpp:173
+#: kateprojectpluginview.cpp:171
 #, fuzzy, kde-format
 #| msgid "Open Folder..."
 msgid "Open &Folder..."
 msgstr "Buka Folder..."
 
-#: kateprojectpluginview.cpp:179
+#: kateprojectpluginview.cpp:177
 #, kde-format
 msgid "Project TODOs"
 msgstr "Kegiatan Projek"
 
-#: kateprojectpluginview.cpp:184
+#: kateprojectpluginview.cpp:182
 #, kde-format
 msgid "Activate Previous Project"
 msgstr ""
 
-#: kateprojectpluginview.cpp:190
+#: kateprojectpluginview.cpp:188
 #, kde-format
 msgid "Activate Next Project"
 msgstr ""
 
-#: kateprojectpluginview.cpp:196
+#: kateprojectpluginview.cpp:194
 #, kde-format
 msgid "Lookup"
 msgstr "Pencarian"
 
-#: kateprojectpluginview.cpp:201
+#: kateprojectpluginview.cpp:199
 #, fuzzy, kde-format
 #| msgid "Current Project"
 msgid "Close Project"
 msgstr "Projek Sekarang"
 
-#: kateprojectpluginview.cpp:206
+#: kateprojectpluginview.cpp:204
 #, fuzzy, kde-format
 #| msgid "Current Project"
 msgid "Close All Projects"
 msgstr "Projek Sekarang"
 
-#: kateprojectpluginview.cpp:211
+#: kateprojectpluginview.cpp:209
 #, fuzzy, kde-format
 #| msgid "Current Project"
 msgid "Close Orphaned Projects"
 msgstr "Projek Sekarang"
 
-#: kateprojectpluginview.cpp:216
+#: kateprojectpluginview.cpp:214
 #, fuzzy, kde-format
 #| msgid "Current Project"
 msgid "Reload Project"
 msgstr "Projek Sekarang"
 
-#: kateprojectpluginview.cpp:221
+#: kateprojectpluginview.cpp:219
 #, fuzzy, kde-format
 #| msgid "Current Project"
 msgid "Reload All Projects"
 msgstr "Projek Sekarang"
 
-#: kateprojectpluginview.cpp:232
+#: kateprojectpluginview.cpp:230
 #, kde-format
 msgid "Checkout Git Branch"
 msgstr "Checkout Cabang Git "
 
-#: kateprojectpluginview.cpp:238 kateprojectpluginview.cpp:847
+#: kateprojectpluginview.cpp:236 kateprojectpluginview.cpp:845
 #, kde-format
 msgid "Lookup: %1"
 msgstr "Pencarian: %1"
 
-#: kateprojectpluginview.cpp:239 kateprojectpluginview.cpp:848
+#: kateprojectpluginview.cpp:237 kateprojectpluginview.cpp:846
 #, kde-format
 msgid "Goto: %1"
 msgstr "Menuju: %1"
 
-#: kateprojectpluginview.cpp:318
+#: kateprojectpluginview.cpp:316
 #, kde-format
 msgid "Projects Index"
 msgstr "Indeks Projek"
 
-#: kateprojectpluginview.cpp:892
+#: kateprojectpluginview.cpp:890
 #, kde-format
 msgid "Choose a directory"
 msgstr "Pilih sebuah direktori"

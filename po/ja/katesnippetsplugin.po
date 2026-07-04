@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katesnippetsplugin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-12 00:48+0000\n"
+"POT-Creation-Date: 2026-07-04 00:47+0000\n"
 "PO-Revision-Date: 2012-11-15 03:24-0800\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -213,17 +213,17 @@ msgstr ""
 msgid "Create Snippet"
 msgstr ""
 
-#: snippet.cpp:23
+#: snippet.cpp:22
 #, kde-format
 msgid "<empty snippet>"
 msgstr ""
 
-#: snippet.cpp:92
+#: snippet.cpp:91
 #, kde-format
 msgid "insert snippet %1"
 msgstr ""
 
-#: snippet.cpp:109
+#: snippet.cpp:108
 #, kde-format
 msgid ""
 "Kate needs to be compiled against KTExtEditor version 6.15.0 or higher, to "

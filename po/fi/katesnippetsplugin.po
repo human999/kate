@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-12 00:48+0000\n"
+"POT-Creation-Date: 2026-07-04 00:47+0000\n"
 "PO-Revision-Date: 2025-06-24 17:22+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -227,17 +227,17 @@ msgstr "Katkelmat"
 msgid "Create Snippet"
 msgstr "Luo katkelma"
 
-#: snippet.cpp:23
+#: snippet.cpp:22
 #, kde-format
 msgid "<empty snippet>"
 msgstr "<tyhjä katkelma>"
 
-#: snippet.cpp:92
+#: snippet.cpp:91
 #, kde-format
 msgid "insert snippet %1"
 msgstr "lisää katkelma %1"
 
-#: snippet.cpp:109
+#: snippet.cpp:108
 #, kde-format
 msgid ""
 "Kate needs to be compiled against KTExtEditor version 6.15.0 or higher, to "

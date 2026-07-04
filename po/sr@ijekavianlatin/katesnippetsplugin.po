@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katesnippetsplugin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-12 00:48+0000\n"
+"POT-Creation-Date: 2026-07-04 00:47+0000\n"
 "PO-Revision-Date: 2017-09-28 17:56+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -229,17 +229,17 @@ msgstr "Isečci"
 msgid "Create Snippet"
 msgstr "Napravi isečak"
 
-#: snippet.cpp:23
+#: snippet.cpp:22
 #, kde-format
 msgid "<empty snippet>"
 msgstr "(prazan isečak)"
 
-#: snippet.cpp:92
+#: snippet.cpp:91
 #, kde-format
 msgid "insert snippet %1"
 msgstr "umetni isečak %1"
 
-#: snippet.cpp:109
+#: snippet.cpp:108
 #, kde-format
 msgid ""
 "Kate needs to be compiled against KTExtEditor version 6.15.0 or higher, to "

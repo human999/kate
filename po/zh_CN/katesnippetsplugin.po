@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-12 00:48+0000\n"
+"POT-Creation-Date: 2026-07-04 00:47+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -221,17 +221,17 @@ msgstr "代码片断"
 msgid "Create Snippet"
 msgstr "创建代码片断"
 
-#: snippet.cpp:23
+#: snippet.cpp:22
 #, kde-format
 msgid "<empty snippet>"
 msgstr "<空代码片段>"
 
-#: snippet.cpp:92
+#: snippet.cpp:91
 #, kde-format
 msgid "insert snippet %1"
 msgstr "插入代码片断 %1"
 
-#: snippet.cpp:109
+#: snippet.cpp:108
 #, kde-format
 msgid ""
 "Kate needs to be compiled against KTExtEditor version 6.15.0 or higher, to "
