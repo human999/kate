@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-23 00:49+0000\n"
+"POT-Creation-Date: 2026-07-05 00:47+0000\n"
 "PO-Revision-Date: 2026-01-04 15:30+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
@@ -448,63 +448,63 @@ msgstr "அடக்கலை இயக்கு"
 msgid "Show fixes"
 msgstr "&ஓரப்பட்டைகளை காட்டு"
 
-#: lib/diff/diffeditor.cpp:195
+#: lib/diff/diffeditor.cpp:197
 #, kde-format
 msgid "Change Style"
 msgstr "தோற்றமுறையை மாற்று"
 
-#: lib/diff/diffeditor.cpp:197 lib/kateconfigdialog.cpp:374
+#: lib/diff/diffeditor.cpp:199 lib/kateconfigdialog.cpp:374
 #, kde-format
 msgid "Side By Side"
 msgstr "பக்கத்துப்பக்கத்தில்"
 
-#: lib/diff/diffeditor.cpp:200 lib/kateconfigdialog.cpp:375
+#: lib/diff/diffeditor.cpp:202 lib/kateconfigdialog.cpp:375
 #, kde-format
 msgid "Unified"
 msgstr "ஒருங்கே"
 
-#: lib/diff/diffeditor.cpp:203 lib/kateconfigdialog.cpp:376
+#: lib/diff/diffeditor.cpp:205 lib/kateconfigdialog.cpp:376
 #, kde-format
 msgid "Raw"
 msgstr "வடிவூட்டாமல்"
 
-#: lib/diff/diffeditor.cpp:214
+#: lib/diff/diffeditor.cpp:216
 #, kde-format
 msgid "Edit Line"
 msgstr "வரியை திருத்து"
 
-#: lib/diff/diffeditor.cpp:279
+#: lib/diff/diffeditor.cpp:281
 #, kde-format
 msgid "Stage Line"
 msgid_plural "Stage Lines"
 msgstr[0] "வரியை ஏற்றரங்கில் செர்"
 msgstr[1] "வரிகளை ஏற்றரங்கில் செர்"
 
-#: lib/diff/diffeditor.cpp:284
+#: lib/diff/diffeditor.cpp:286
 #, kde-format
 msgid "Stage Hunk"
 msgstr "இப்பகுதியை ஏற்றரங்கில் செர்"
 
-#: lib/diff/diffeditor.cpp:291
+#: lib/diff/diffeditor.cpp:293
 #, kde-format
 msgid "Discard Line"
 msgid_plural "Discard Lines"
 msgstr[0] "வரியை பழைய நிலைக்கு மீட்டமை"
 msgstr[1] "வரிகளை பழைய நிலைக்கு மீட்டமை"
 
-#: lib/diff/diffeditor.cpp:296
+#: lib/diff/diffeditor.cpp:298
 #, kde-format
 msgid "Discard Hunk"
 msgstr "இப்பகுதியை பழைய நிலைக்கு மீட்டமை"
 
-#: lib/diff/diffeditor.cpp:303
+#: lib/diff/diffeditor.cpp:305
 #, kde-format
 msgid "Unstage Line"
 msgid_plural "Unstage Lines"
 msgstr[0] "வரியை ஏற்றரங்கிலிருந்து நீக்கு"
 msgstr[1] "வரிகளை ஏற்றரங்கிலிருந்து நீக்கு"
 
-#: lib/diff/diffeditor.cpp:308
+#: lib/diff/diffeditor.cpp:310
 #, kde-format
 msgid "Unstage Hunk"
 msgstr "பகுதியை ஏற்றரங்கிலிருந்து நீக்கு"

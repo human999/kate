@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-23 00:49+0000\n"
+"POT-Creation-Date: 2026-07-05 00:47+0000\n"
 "PO-Revision-Date: 2026-04-30 08:47+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -447,32 +447,32 @@ msgstr "مكن التقييد"
 msgid "Show fixes"
 msgstr "اعرض الإصلاحات"
 
-#: lib/diff/diffeditor.cpp:195
+#: lib/diff/diffeditor.cpp:197
 #, kde-format
 msgid "Change Style"
 msgstr "غيّر النمط"
 
-#: lib/diff/diffeditor.cpp:197 lib/kateconfigdialog.cpp:374
+#: lib/diff/diffeditor.cpp:199 lib/kateconfigdialog.cpp:374
 #, kde-format
 msgid "Side By Side"
 msgstr "جنبًا إلى جنب"
 
-#: lib/diff/diffeditor.cpp:200 lib/kateconfigdialog.cpp:375
+#: lib/diff/diffeditor.cpp:202 lib/kateconfigdialog.cpp:375
 #, kde-format
 msgid "Unified"
 msgstr "موحّد"
 
-#: lib/diff/diffeditor.cpp:203 lib/kateconfigdialog.cpp:376
+#: lib/diff/diffeditor.cpp:205 lib/kateconfigdialog.cpp:376
 #, kde-format
 msgid "Raw"
 msgstr "خام"
 
-#: lib/diff/diffeditor.cpp:214
+#: lib/diff/diffeditor.cpp:216
 #, kde-format
 msgid "Edit Line"
 msgstr "حرّر سطر"
 
-#: lib/diff/diffeditor.cpp:279
+#: lib/diff/diffeditor.cpp:281
 #, kde-format
 msgid "Stage Line"
 msgid_plural "Stage Lines"
@@ -483,12 +483,12 @@ msgstr[3] "سطور مُعدة"
 msgstr[4] "سطراً مُعداً"
 msgstr[5] "سطر مُعد"
 
-#: lib/diff/diffeditor.cpp:284
+#: lib/diff/diffeditor.cpp:286
 #, kde-format
 msgid "Stage Hunk"
 msgstr "كتلة مُعدة"
 
-#: lib/diff/diffeditor.cpp:291
+#: lib/diff/diffeditor.cpp:293
 #, kde-format
 msgid "Discard Line"
 msgid_plural "Discard Lines"
@@ -499,12 +499,12 @@ msgstr[3] "سطور مُهملة"
 msgstr[4] "سطراً مُهملاً"
 msgstr[5] "سطر مُهمل"
 
-#: lib/diff/diffeditor.cpp:296
+#: lib/diff/diffeditor.cpp:298
 #, kde-format
 msgid "Discard Hunk"
 msgstr "كتلة مُهملة"
 
-#: lib/diff/diffeditor.cpp:303
+#: lib/diff/diffeditor.cpp:305
 #, kde-format
 msgid "Unstage Line"
 msgid_plural "Unstage Lines"
@@ -515,7 +515,7 @@ msgstr[3] "سطور غير مُعدة"
 msgstr[4] "سطراً غير مُعد"
 msgstr[5] "سطر غير مُعد"
 
-#: lib/diff/diffeditor.cpp:308
+#: lib/diff/diffeditor.cpp:310
 #, kde-format
 msgid "Unstage Hunk"
 msgstr "كتلة غير مُعدة"

@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-23 00:49+0000\n"
+"POT-Creation-Date: 2026-07-05 00:47+0000\n"
 "PO-Revision-Date: 2026-04-21 22:53+0200\n"
 "Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -451,63 +451,63 @@ msgstr "Unterdrückung aktivieren"
 msgid "Show fixes"
 msgstr "Fehlerbehebungen anzeigen"
 
-#: lib/diff/diffeditor.cpp:195
+#: lib/diff/diffeditor.cpp:197
 #, kde-format
 msgid "Change Style"
 msgstr "Stil ändern"
 
-#: lib/diff/diffeditor.cpp:197 lib/kateconfigdialog.cpp:374
+#: lib/diff/diffeditor.cpp:199 lib/kateconfigdialog.cpp:374
 #, kde-format
 msgid "Side By Side"
 msgstr "Nebeneinander"
 
-#: lib/diff/diffeditor.cpp:200 lib/kateconfigdialog.cpp:375
+#: lib/diff/diffeditor.cpp:202 lib/kateconfigdialog.cpp:375
 #, kde-format
 msgid "Unified"
 msgstr "Vereinigt"
 
-#: lib/diff/diffeditor.cpp:203 lib/kateconfigdialog.cpp:376
+#: lib/diff/diffeditor.cpp:205 lib/kateconfigdialog.cpp:376
 #, kde-format
 msgid "Raw"
 msgstr "Roh"
 
-#: lib/diff/diffeditor.cpp:214
+#: lib/diff/diffeditor.cpp:216
 #, kde-format
 msgid "Edit Line"
 msgstr "Zeile bearbeiten"
 
-#: lib/diff/diffeditor.cpp:279
+#: lib/diff/diffeditor.cpp:281
 #, kde-format
 msgid "Stage Line"
 msgid_plural "Stage Lines"
 msgstr[0] "Zeile zum Index"
 msgstr[1] "Zeilen zum Index"
 
-#: lib/diff/diffeditor.cpp:284
+#: lib/diff/diffeditor.cpp:286
 #, kde-format
 msgid "Stage Hunk"
 msgstr "Block zum Index"
 
-#: lib/diff/diffeditor.cpp:291
+#: lib/diff/diffeditor.cpp:293
 #, kde-format
 msgid "Discard Line"
 msgid_plural "Discard Lines"
 msgstr[0] "Zeile verwerfen"
 msgstr[1] "Zeilen verwerfen"
 
-#: lib/diff/diffeditor.cpp:296
+#: lib/diff/diffeditor.cpp:298
 #, kde-format
 msgid "Discard Hunk"
 msgstr "Block verwerfen"
 
-#: lib/diff/diffeditor.cpp:303
+#: lib/diff/diffeditor.cpp:305
 #, kde-format
 msgid "Unstage Line"
 msgid_plural "Unstage Lines"
 msgstr[0] "Zeile aus dem Index"
 msgstr[1] "Zeilen aus dem Index"
 
-#: lib/diff/diffeditor.cpp:308
+#: lib/diff/diffeditor.cpp:310
 #, kde-format
 msgid "Unstage Hunk"
 msgstr "Block aus dem Index"

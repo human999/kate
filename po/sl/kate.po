@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-23 00:49+0000\n"
+"POT-Creation-Date: 2026-07-05 00:47+0000\n"
 "PO-Revision-Date: 2026-04-23 06:35+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -454,32 +454,32 @@ msgstr "Omogoči zatrtje"
 msgid "Show fixes"
 msgstr "Pokaži popravke"
 
-#: lib/diff/diffeditor.cpp:195
+#: lib/diff/diffeditor.cpp:197
 #, kde-format
 msgid "Change Style"
 msgstr "Spremeni slog"
 
-#: lib/diff/diffeditor.cpp:197 lib/kateconfigdialog.cpp:374
+#: lib/diff/diffeditor.cpp:199 lib/kateconfigdialog.cpp:374
 #, kde-format
 msgid "Side By Side"
 msgstr "En zraven drugega"
 
-#: lib/diff/diffeditor.cpp:200 lib/kateconfigdialog.cpp:375
+#: lib/diff/diffeditor.cpp:202 lib/kateconfigdialog.cpp:375
 #, kde-format
 msgid "Unified"
 msgstr "Poenoteno"
 
-#: lib/diff/diffeditor.cpp:203 lib/kateconfigdialog.cpp:376
+#: lib/diff/diffeditor.cpp:205 lib/kateconfigdialog.cpp:376
 #, kde-format
 msgid "Raw"
 msgstr "Surovo"
 
-#: lib/diff/diffeditor.cpp:214
+#: lib/diff/diffeditor.cpp:216
 #, kde-format
 msgid "Edit Line"
 msgstr "Uredi vrstico"
 
-#: lib/diff/diffeditor.cpp:279
+#: lib/diff/diffeditor.cpp:281
 #, kde-format
 msgid "Stage Line"
 msgid_plural "Stage Lines"
@@ -488,12 +488,12 @@ msgstr[1] "Sledi vrsticama"
 msgstr[2] "Sledi vrstice"
 msgstr[3] "Sledi vrsticam"
 
-#: lib/diff/diffeditor.cpp:284
+#: lib/diff/diffeditor.cpp:286
 #, kde-format
 msgid "Stage Hunk"
 msgstr "Sledi skupku razlik"
 
-#: lib/diff/diffeditor.cpp:291
+#: lib/diff/diffeditor.cpp:293
 #, kde-format
 msgid "Discard Line"
 msgid_plural "Discard Lines"
@@ -502,12 +502,12 @@ msgstr[1] "Zavrzi vrstici"
 msgstr[2] "Zavrzi vrstice"
 msgstr[3] "Zavrzi vrstice"
 
-#: lib/diff/diffeditor.cpp:296
+#: lib/diff/diffeditor.cpp:298
 #, kde-format
 msgid "Discard Hunk"
 msgstr "Zavrzi skupek razlik"
 
-#: lib/diff/diffeditor.cpp:303
+#: lib/diff/diffeditor.cpp:305
 #, kde-format
 msgid "Unstage Line"
 msgid_plural "Unstage Lines"
@@ -516,7 +516,7 @@ msgstr[1] "Ne sledi vrsticam"
 msgstr[2] "Ne sledi vrsticam"
 msgstr[3] "Ne sledi vrsticam"
 
-#: lib/diff/diffeditor.cpp:308
+#: lib/diff/diffeditor.cpp:310
 #, kde-format
 msgid "Unstage Hunk"
 msgstr "Ne sledi skupku razlik"

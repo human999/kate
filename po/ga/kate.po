@@ -3,13 +3,14 @@
 # Séamus Ó Ciardhuáin <seoc@cnds.ucd.ie>, 2002
 # Kevin Scannell <kscanne@gmail.com>, 2009
 # Aindriú Mac Giolla Eoin <aindriu80@yahoo.com>, 2025, 2026.
+# SPDX-FileCopyrightText: 2026 deck <altronic25@protonmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-23 00:49+0000\n"
-"PO-Revision-Date: 2026-02-13 13:17+0000\n"
-"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@yahoo.com>\n"
+"POT-Creation-Date: 2026-07-05 00:47+0000\n"
+"PO-Revision-Date: 2026-07-04 12:52+0100\n"
+"Last-Translator: deck <altronic25@protonmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
 "3 : 4\n"
+"X-Generator: Lokalize 25.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -205,7 +207,7 @@ msgstr "Tiomnaigh %1"
 #, kde-format
 msgctxt "@title:tab"
 msgid "Stash %1"
-msgstr ""
+msgstr "Folaigh %1"
 
 #. i18n: ectx: Menu (file)
 #: lib/data/kateui.rc:6
@@ -437,37 +439,36 @@ msgid "Enable Suppression"
 msgstr "Cumasaigh Cosc"
 
 #: lib/diagnostics/diagnosticview.cpp:1620
-#, fuzzy, kde-format
-#| msgid "Show Side&bars"
+#, kde-format
 msgid "Show fixes"
-msgstr "Taispeáin &Barraí Taoibh"
+msgstr "Taispeáin paiste"
 
-#: lib/diff/diffeditor.cpp:195
+#: lib/diff/diffeditor.cpp:197
 #, kde-format
 msgid "Change Style"
 msgstr "Athraigh Stíl"
 
-#: lib/diff/diffeditor.cpp:197 lib/kateconfigdialog.cpp:374
+#: lib/diff/diffeditor.cpp:199 lib/kateconfigdialog.cpp:374
 #, kde-format
 msgid "Side By Side"
 msgstr "Taobh le Taobh"
 
-#: lib/diff/diffeditor.cpp:200 lib/kateconfigdialog.cpp:375
+#: lib/diff/diffeditor.cpp:202 lib/kateconfigdialog.cpp:375
 #, kde-format
 msgid "Unified"
 msgstr "Aontaithe"
 
-#: lib/diff/diffeditor.cpp:203 lib/kateconfigdialog.cpp:376
+#: lib/diff/diffeditor.cpp:205 lib/kateconfigdialog.cpp:376
 #, kde-format
 msgid "Raw"
 msgstr "Amh"
 
-#: lib/diff/diffeditor.cpp:214
+#: lib/diff/diffeditor.cpp:216
 #, kde-format
 msgid "Edit Line"
 msgstr "Líne a Chur in Eagar"
 
-#: lib/diff/diffeditor.cpp:279
+#: lib/diff/diffeditor.cpp:281
 #, kde-format
 msgid "Stage Line"
 msgid_plural "Stage Lines"
@@ -477,12 +478,12 @@ msgstr[2] "Línte Stáitse"
 msgstr[3] "Línte Stáitse"
 msgstr[4] "Línte Stáitse"
 
-#: lib/diff/diffeditor.cpp:284
+#: lib/diff/diffeditor.cpp:286
 #, kde-format
 msgid "Stage Hunk"
 msgstr "Hunk Céime"
 
-#: lib/diff/diffeditor.cpp:291
+#: lib/diff/diffeditor.cpp:293
 #, kde-format
 msgid "Discard Line"
 msgid_plural "Discard Lines"
@@ -492,12 +493,12 @@ msgstr[2] "Línte a Scriosadh"
 msgstr[3] "Línte a Scriosadh"
 msgstr[4] "Línte a Scriosadh"
 
-#: lib/diff/diffeditor.cpp:296
+#: lib/diff/diffeditor.cpp:298
 #, kde-format
 msgid "Discard Hunk"
 msgstr "Scrios an Hunk"
 
-#: lib/diff/diffeditor.cpp:303
+#: lib/diff/diffeditor.cpp:305
 #, kde-format
 msgid "Unstage Line"
 msgid_plural "Unstage Lines"
@@ -507,7 +508,7 @@ msgstr[2] "Línte Gan Stáid"
 msgstr[3] "Línte Gan Stáid"
 msgstr[4] "Línte Gan Stáid"
 
-#: lib/diff/diffeditor.cpp:308
+#: lib/diff/diffeditor.cpp:310
 #, kde-format
 msgid "Unstage Hunk"
 msgstr "Hunk Gan Stádas"
@@ -515,12 +516,12 @@ msgstr "Hunk Gan Stádas"
 #: lib/diff/diffwidget.cpp:51
 #, kde-format
 msgid "Diff - %1"
-msgstr ""
+msgstr "Difríocht - %1"
 
 #: lib/diff/diffwidget.cpp:54
 #, kde-format
 msgid "Diff - %1..%2"
-msgstr ""
+msgstr "Difríocht - %1..%2"
 
 #: lib/diff/diffwidget.cpp:60
 #, kde-format
@@ -661,45 +662,42 @@ msgstr "Taispeáin an Tiomantas Iomlán"
 #, kde-format
 msgctxt "@title:tab"
 msgid "History - %1"
-msgstr ""
+msgstr "Stair - %1"
 
 #: lib/jsonsettings.cpp:30
-#, fuzzy, kde-format
-#| msgid "&Settings"
+#, kde-format
 msgid "User Settings"
-msgstr "&Socruithe"
+msgstr "Socruithe Úsáideora"
 
 #: lib/jsonsettings.cpp:39
-#, fuzzy, kde-format
-#| msgid "&Settings"
+#, kde-format
 msgid "Settings file:"
-msgstr "&Socruithe"
+msgstr "Comhad socruithe:"
 
 #: lib/jsonsettings.cpp:75
-#, fuzzy, kde-format
-#| msgid "&Settings"
+#, kde-format
 msgid "Default Settings"
-msgstr "&Socruithe"
+msgstr "Socruithe Réamhshocraithe"
 
 #: lib/jsonsettings.cpp:125
 #, kde-format
 msgid "No JSON data to validate."
-msgstr ""
+msgstr "Gan sonraí JSON a bhailíochtú."
 
 #: lib/jsonsettings.cpp:134
 #, kde-format
 msgid "JSON data is valid."
-msgstr ""
+msgstr "Tá an sonraí JSON bailí."
 
 #: lib/jsonsettings.cpp:136
 #, kde-format
 msgid "JSON data is invalid: no JSON object"
-msgstr ""
+msgstr "Tá an sonraí JSON neamhbhailí: gan ní JSON"
 
 #: lib/jsonsettings.cpp:139
 #, kde-format
 msgid "JSON data is invalid: %1"
-msgstr ""
+msgstr "Tá an sonraí JSON neamhbhailí: %1"
 
 #: lib/kateapp.cpp:147
 msgid ""
@@ -2349,11 +2347,10 @@ msgid "Copy Filename"
 msgstr "Cóipeáil Ainm Comhaid"
 
 #: lib/kateurlbar.cpp:926
-#, fuzzy, kde-format
-#| msgid "Copy Filename"
+#, kde-format
 msgctxt "@menu:action"
 msgid "Copy Item"
-msgstr "Cóipeáil Ainm Comhaid"
+msgstr "Cóipeáil Mír"
 
 #: lib/kateviewmanager.cpp:150
 #, kde-format
