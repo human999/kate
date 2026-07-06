@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-16 00:46+0000\n"
+"POT-Creation-Date: 2026-07-06 00:49+0000\n"
 "PO-Revision-Date: 2026-05-30 16:56-0400\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
@@ -20,17 +20,20 @@ msgstr ""
 
 #: keyboardmacrosplugin.cpp:66 keyboardmacrosplugin.cpp:102
 #, kde-format
-msgid "Could not open file '%1'."
+msgid "Could not open file ‘%1’."
 msgstr ""
 
 #: keyboardmacrosplugin.cpp:72
-#, kde-format
-msgid "Malformed JSON file '%1': %2"
+#, fuzzy, kde-format
+#| msgid "Malformed JSON file '%1': %2"
+msgctxt "%2 is an error message"
+msgid "Malformed JSON file ‘%1’: %2"
 msgstr "پىچىمى خاتا JSON ھۆججەت «%1»: %2"
 
 #: keyboardmacrosplugin.cpp:80
 #, kde-format
-msgid "Could not load '%1': malformed macro; wiping it."
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Could not load ‘%1’: malformed macro; wiping it."
 msgstr ""
 
 #. i18n: ectx: ToolBar (keyboardmacros)
@@ -47,42 +50,44 @@ msgstr "<b>ھەرپتاختا ماكروسى:</b> %1"
 
 #: keyboardmacrosplugin.cpp:170
 #, kde-format
-msgid "Can't save macro during recording. Please end recoding first"
+msgid "Can’t save macro during recording. Please end recording first"
 msgstr ""
 
 #: keyboardmacrosplugin.cpp:241
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Recording…"
+msgctxt "@info:progress Macro is being recorded right now"
 msgid "Recording…"
 msgstr "خاتىرىلەۋاتىدۇ…"
 
-#: keyboardmacrosplugin.cpp:277
-#, kde-format
-msgid "ended"
-msgstr "ئاخىرلاشتى"
-
-#: keyboardmacrosplugin.cpp:277
-#, kde-format
-msgid "canceled"
-msgstr "ۋاز كەچتى"
-
-#: keyboardmacrosplugin.cpp:277
-#, kde-format
-msgid "Recording %1"
+#: keyboardmacrosplugin.cpp:278
+#, fuzzy, kde-format
+#| msgid "Recording %1"
+msgid "Recording ended"
 msgstr "%1 نى خاتىرىلەۋاتىدۇ"
 
-#: keyboardmacrosplugin.cpp:327
+#: keyboardmacrosplugin.cpp:279
+#, fuzzy, kde-format
+#| msgid "Recording %1"
+msgid "Recording canceled"
+msgstr "%1 نى خاتىرىلەۋاتىدۇ"
+
+#: keyboardmacrosplugin.cpp:330
 #, kde-format
-msgid "Saved '%1'"
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Saved ‘%1’"
 msgstr ""
 
-#: keyboardmacrosplugin.cpp:347
+#: keyboardmacrosplugin.cpp:350
 #, kde-format
-msgid "Loaded '%1'"
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Loaded ‘%1’"
 msgstr ""
 
-#: keyboardmacrosplugin.cpp:365
+#: keyboardmacrosplugin.cpp:368
 #, kde-format
-msgid "Wiped '%1'"
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Wiped ‘%1’"
 msgstr ""
 
 #: keyboardmacrosplugincommands.cpp:27
@@ -140,9 +145,10 @@ msgid "Record and play keyboard macros."
 msgstr ""
 
 #: keyboardmacrospluginview.cpp:41 keyboardmacrospluginview.cpp:163
-#, kde-format
-msgid "&Record Macro..."
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Keyboard Macros"
+msgid "&Record Macro…"
+msgstr "ھەرپتاختا ماكروسى"
 
 #: keyboardmacrospluginview.cpp:43
 #, kde-format
@@ -184,7 +190,7 @@ msgstr ""
 
 #: keyboardmacrospluginview.cpp:90
 #, kde-format
-msgid "&Load Named Macro..."
+msgid "&Load Named Macro…"
 msgstr ""
 
 #: keyboardmacrospluginview.cpp:93
@@ -194,7 +200,7 @@ msgstr ""
 
 #: keyboardmacrospluginview.cpp:98
 #, kde-format
-msgid "&Play Named Macro..."
+msgid "&Play Named Macro…"
 msgstr ""
 
 #: keyboardmacrospluginview.cpp:101
@@ -204,7 +210,7 @@ msgstr ""
 
 #: keyboardmacrospluginview.cpp:106
 #, kde-format
-msgid "&Wipe Named Macro..."
+msgid "&Wipe Named Macro…"
 msgstr ""
 
 #: keyboardmacrospluginview.cpp:109
@@ -219,32 +225,38 @@ msgstr ""
 
 #: keyboardmacrospluginview.cpp:180
 #, kde-format
+msgctxt "%1 is the name of a keyboard macro"
 msgid "Load %1"
 msgstr ""
 
 #: keyboardmacrospluginview.cpp:181
 #, kde-format
-msgid "Load the '%1' macro as the current one."
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Load the ‘%1’ macro as the current one."
 msgstr ""
 
 #: keyboardmacrospluginview.cpp:193
 #, kde-format
+msgctxt "%1 is the name of a keyboard macro"
 msgid "Play %1"
 msgstr ""
 
 #: keyboardmacrospluginview.cpp:194
 #, kde-format
-msgid "Play the '%1' macro without loading it."
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Play the ‘%1’ macro without loading it."
 msgstr ""
 
 #: keyboardmacrospluginview.cpp:208
 #, kde-format
+msgctxt "%1 is the name of a keyboard macro"
 msgid "Wipe %1"
 msgstr ""
 
 #: keyboardmacrospluginview.cpp:209
 #, kde-format
-msgid "Wipe the '%1' macro."
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Wipe the ‘%1’ macro."
 msgstr ""
 
 #: keyboardmacrospluginview.cpp:289
@@ -254,7 +266,8 @@ msgstr ""
 
 #: keyboardmacrospluginview.cpp:323
 #, kde-format
-msgid "Wipe the '%1' macro?"
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Wipe the ‘%1’ macro?"
 msgstr ""
 
 #. i18n: ectx: Menu (tools)
@@ -262,3 +275,9 @@ msgstr ""
 #, kde-format
 msgid "&Tools"
 msgstr "قورال(&T)"
+
+#~ msgid "ended"
+#~ msgstr "ئاخىرلاشتى"
+
+#~ msgid "canceled"
+#~ msgstr "ۋاز كەچتى"

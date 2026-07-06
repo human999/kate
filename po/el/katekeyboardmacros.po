@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-16 00:46+0000\n"
+"POT-Creation-Date: 2026-07-06 00:49+0000\n"
 "PO-Revision-Date: 2026-04-15 23:40+0300\n"
 "Last-Translator: Petros Vidalis <pvidalis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -19,18 +19,23 @@ msgstr ""
 "X-Generator: Lokalize 25.08.1\n"
 
 #: keyboardmacrosplugin.cpp:66 keyboardmacrosplugin.cpp:102
-#, kde-format
-msgid "Could not open file '%1'."
+#, fuzzy, kde-format
+#| msgid "Could not open file '%1'."
+msgid "Could not open file ‘%1’."
 msgstr "Αδυναμία ανοίγματος αρχείου '%1'."
 
 #: keyboardmacrosplugin.cpp:72
-#, kde-format
-msgid "Malformed JSON file '%1': %2"
+#, fuzzy, kde-format
+#| msgid "Malformed JSON file '%1': %2"
+msgctxt "%2 is an error message"
+msgid "Malformed JSON file ‘%1’: %2"
 msgstr "Κακοδιατυπωμένο αρχείο JSON '%1': %2"
 
 #: keyboardmacrosplugin.cpp:80
-#, kde-format
-msgid "Could not load '%1': malformed macro; wiping it."
+#, fuzzy, kde-format
+#| msgid "Could not load '%1': malformed macro; wiping it."
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Could not load ‘%1’: malformed macro; wiping it."
 msgstr "Αδυναμία φόρτωσης '%1': κακοδιατυπωμένη μακροεντολή, να διαγραφεί."
 
 #. i18n: ectx: ToolBar (keyboardmacros)
@@ -46,45 +51,51 @@ msgid "<b>Keyboard Macros:</b> %1"
 msgstr "<b>Μακροεντολές του πληκτρολογίου:</b> %1"
 
 #: keyboardmacrosplugin.cpp:170
-#, kde-format
-msgid "Can't save macro during recording. Please end recoding first"
+#, fuzzy, kde-format
+#| msgid "Can't save macro during recording. Please end recoding first"
+msgid "Can’t save macro during recording. Please end recording first"
 msgstr ""
 "Δεν είναι δυνατή η αποθήκευση της μακροεντολής κατά την εγγραφή. Παρακαλώ "
 "τερματίστε πρώτα την εγγραφή."
 
 #: keyboardmacrosplugin.cpp:241
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Recording…"
+msgctxt "@info:progress Macro is being recorded right now"
 msgid "Recording…"
 msgstr "Καταγραφή…"
 
-#: keyboardmacrosplugin.cpp:277
-#, kde-format
-msgid "ended"
-msgstr "ολοκληρώθηκε"
-
-#: keyboardmacrosplugin.cpp:277
-#, kde-format
-msgid "canceled"
-msgstr "ακυρώθηκε"
-
-#: keyboardmacrosplugin.cpp:277
-#, kde-format
-msgid "Recording %1"
+#: keyboardmacrosplugin.cpp:278
+#, fuzzy, kde-format
+#| msgid "Recording %1"
+msgid "Recording ended"
 msgstr "Καταγραφή %1"
 
-#: keyboardmacrosplugin.cpp:327
-#, kde-format
-msgid "Saved '%1'"
+#: keyboardmacrosplugin.cpp:279
+#, fuzzy, kde-format
+#| msgid "Recording %1"
+msgid "Recording canceled"
+msgstr "Καταγραφή %1"
+
+#: keyboardmacrosplugin.cpp:330
+#, fuzzy, kde-format
+#| msgid "Saved '%1'"
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Saved ‘%1’"
 msgstr "Αποθηκεύτηκε '%1'"
 
-#: keyboardmacrosplugin.cpp:347
-#, kde-format
-msgid "Loaded '%1'"
+#: keyboardmacrosplugin.cpp:350
+#, fuzzy, kde-format
+#| msgid "Loaded '%1'"
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Loaded ‘%1’"
 msgstr "Φορτώθηκε '%1'"
 
-#: keyboardmacrosplugin.cpp:365
-#, kde-format
-msgid "Wiped '%1'"
+#: keyboardmacrosplugin.cpp:368
+#, fuzzy, kde-format
+#| msgid "Wiped '%1'"
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Wiped ‘%1’"
 msgstr "Διαγράφηκε '%1'"
 
 #: keyboardmacrosplugincommands.cpp:27
@@ -151,8 +162,9 @@ msgid "Record and play keyboard macros."
 msgstr "Καταγραφή και αναπαραγωγή των μακροεντολών του πληκτρολογίου."
 
 #: keyboardmacrospluginview.cpp:41 keyboardmacrospluginview.cpp:163
-#, kde-format
-msgid "&Record Macro..."
+#, fuzzy, kde-format
+#| msgid "&Record Macro..."
+msgid "&Record Macro…"
 msgstr "Καταγ&ραφή μακροεντολής..."
 
 #: keyboardmacrospluginview.cpp:43
@@ -200,8 +212,9 @@ msgid "Give a name to the current macro and persistently save it."
 msgstr "Δώστε ένα όνομα στην τρέχουσα μακροεντολή και αποθηκεύστε την μόνιμα."
 
 #: keyboardmacrospluginview.cpp:90
-#, kde-format
-msgid "&Load Named Macro..."
+#, fuzzy, kde-format
+#| msgid "&Load Named Macro..."
+msgid "&Load Named Macro…"
 msgstr "Φόρτωση ονοματισμένης μακροεντολής..."
 
 #: keyboardmacrospluginview.cpp:93
@@ -210,8 +223,9 @@ msgid "Load a named macro as the current one."
 msgstr "Φόρτωση μιας μακροεντολής με όνομα ως τρέχουσας."
 
 #: keyboardmacrospluginview.cpp:98
-#, kde-format
-msgid "&Play Named Macro..."
+#, fuzzy, kde-format
+#| msgid "&Play Named Macro..."
+msgid "&Play Named Macro…"
 msgstr "Ανα&παραγωγή ονοματισμένης μακροεντολής..."
 
 #: keyboardmacrospluginview.cpp:101
@@ -220,8 +234,9 @@ msgid "Play a named macro without loading it."
 msgstr "Αναπαραγωγή μιας μακροεντολής με όνομα χωρίς να φορτωθεί."
 
 #: keyboardmacrospluginview.cpp:106
-#, kde-format
-msgid "&Wipe Named Macro..."
+#, fuzzy, kde-format
+#| msgid "&Wipe Named Macro..."
+msgid "&Wipe Named Macro…"
 msgstr "&Διαγραφή ονοματισμένης μακροεντολής..."
 
 #: keyboardmacrospluginview.cpp:109
@@ -235,33 +250,45 @@ msgid "End Macro &Recording"
 msgstr "Τερματισμός καταγ&ραφής μακροεντολής"
 
 #: keyboardmacrospluginview.cpp:180
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Load %1"
+msgctxt "%1 is the name of a keyboard macro"
 msgid "Load %1"
 msgstr "Φόρτωση %1"
 
 #: keyboardmacrospluginview.cpp:181
-#, kde-format
-msgid "Load the '%1' macro as the current one."
+#, fuzzy, kde-format
+#| msgid "Load the '%1' macro as the current one."
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Load the ‘%1’ macro as the current one."
 msgstr "Να φορτωθεί η μακροεντολή '%1' ως τρέχουσα."
 
 #: keyboardmacrospluginview.cpp:193
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Play %1"
+msgctxt "%1 is the name of a keyboard macro"
 msgid "Play %1"
 msgstr "Αναπαραγωγή %1"
 
 #: keyboardmacrospluginview.cpp:194
-#, kde-format
-msgid "Play the '%1' macro without loading it."
+#, fuzzy, kde-format
+#| msgid "Play the '%1' macro without loading it."
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Play the ‘%1’ macro without loading it."
 msgstr "Να γίνει αναπαραγωγή της μακροεντολής '%1' χωρίς να φορτωθεί."
 
 #: keyboardmacrospluginview.cpp:208
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Wipe %1"
+msgctxt "%1 is the name of a keyboard macro"
 msgid "Wipe %1"
 msgstr "Καθαρισμός '%1'"
 
 #: keyboardmacrospluginview.cpp:209
-#, kde-format
-msgid "Wipe the '%1' macro."
+#, fuzzy, kde-format
+#| msgid "Wipe the '%1' macro."
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Wipe the ‘%1’ macro."
 msgstr "Διαγραφή της μακροεντολής '%1'."
 
 #: keyboardmacrospluginview.cpp:289
@@ -270,8 +297,10 @@ msgid "Save current macro as?"
 msgstr "Να αποθηκευτεί η τρέχουσα μακροεντολή ως;"
 
 #: keyboardmacrospluginview.cpp:323
-#, kde-format
-msgid "Wipe the '%1' macro?"
+#, fuzzy, kde-format
+#| msgid "Wipe the '%1' macro?"
+msgctxt "%1 is the name of a keyboard macro"
+msgid "Wipe the ‘%1’ macro?"
 msgstr "Να διαγραφεί η μακροεντολή '%1';"
 
 #. i18n: ectx: Menu (tools)
@@ -279,3 +308,9 @@ msgstr "Να διαγραφεί η μακροεντολή '%1';"
 #, kde-format
 msgid "&Tools"
 msgstr "&Εργαλεία"
+
+#~ msgid "ended"
+#~ msgstr "ολοκληρώθηκε"
+
+#~ msgid "canceled"
+#~ msgstr "ακυρώθηκε"
