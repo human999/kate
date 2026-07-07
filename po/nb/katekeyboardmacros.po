@@ -302,9 +302,3 @@ msgstr "Vil du slette makroen «%1»?"
 #, kde-format
 msgid "&Tools"
 msgstr "Verk&tøy"
-
-#~ msgid "ended"
-#~ msgstr "avsluttet"
-
-#~ msgid "canceled"
-#~ msgstr "avbrutt"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-24 01:27+0000\n"
+"POT-Creation-Date: 2026-07-07 00:46+0000\n"
 "PO-Revision-Date: 2026-06-25 13:50+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -157,7 +157,7 @@ msgctxt "@label:textbox"
 msgid "Connection name:"
 msgstr "Название подключения:"
 
-#: dataoutputwidget.cpp:93 katesqlview.cpp:52
+#: dataoutputwidget.cpp:93 katesqlview.cpp:47
 #, kde-format
 msgid "SQL"
 msgstr "SQ"
@@ -431,100 +431,82 @@ msgstr "Экспериментальные"
 #: katesqlconfigpage.cpp:38
 #, kde-format
 msgctxt "@option:check"
-msgid "Allow running queries in non-SQL files"
-msgstr "Разрешать выполнение запросов в файлах, не являющихся SQL"
-
-#: katesqlconfigpage.cpp:40
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable auto query selection"
-msgstr "Автоматически выделять запрос"
-
-#: katesqlconfigpage.cpp:41
-#, kde-format
-msgctxt "@option:check"
 msgid "Treat a blank line as a statement break"
 msgstr "Считать пустую строку разделителем выражений"
 
-#: katesqlconfigpage.cpp:42
-#, kde-format
-msgctxt "@option:check"
-msgid "Always show query selector popup"
-msgstr "Всегда показывать всплывающее окно выбора запроса"
-
-#: katesqlconfigpage.cpp:44
+#: katesqlconfigpage.cpp:40
 #, kde-format
 msgctxt "@title:group"
 msgid "Output Customization"
 msgstr "Внешний вид вывода"
 
-#: katesqlconfigpage.cpp:51
+#: katesqlconfigpage.cpp:47
 #, kde-format
 msgctxt "@option:check"
 msgid "Use system defaults"
 msgstr "Использовать системные настройки по умолчанию"
 
-#: katesqlconfigpage.cpp:52
+#: katesqlconfigpage.cpp:48
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset to System Defaults"
 msgstr "Сбросить до системных значений по умолчанию"
 
-#: katesqlconfigpage.cpp:113
+#: katesqlconfigpage.cpp:86
 #, kde-format
 msgctxt "@title"
 msgid "SQL"
 msgstr "SQL"
 
-#: katesqlconfigpage.cpp:118
+#: katesqlconfigpage.cpp:91
 #, kde-format
 msgctxt "@title:window"
 msgid "SQL ConfigPage Settings"
 msgstr "Настройка модуля SQL"
 
-#: katesqlview.cpp:59
+#: katesqlview.cpp:54
 #, kde-format
 msgctxt "@title:window"
 msgid "SQL"
 msgstr "SQL"
 
-#: katesqlview.cpp:65
+#: katesqlview.cpp:60
 #, kde-format
 msgctxt "@title:window"
 msgid "SQL Schema"
 msgstr "Схема данных SQL"
 
-#: katesqlview.cpp:159
+#: katesqlview.cpp:145
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add Connection..."
 msgstr "Добавить подключение…"
 
-#: katesqlview.cpp:164
+#: katesqlview.cpp:150
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Connection"
 msgstr "Переименовать подключение"
 
-#: katesqlview.cpp:169
+#: katesqlview.cpp:155
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Edit Connection..."
 msgstr "Изменить подключение…"
 
-#: katesqlview.cpp:174
+#: katesqlview.cpp:160
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reconnect"
 msgstr "Переподключиться"
 
-#: katesqlview.cpp:180
+#: katesqlview.cpp:166
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Connection"
 msgstr "Подключение"
 
-#: katesqlview.cpp:184
+#: katesqlview.cpp:170
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Run Query"
@@ -732,6 +714,18 @@ msgstr "Панель подключений SQL"
 #, kde-format
 msgid "SQL Toolbar"
 msgstr "Панель инструментов SQL"
+
+#~ msgctxt "@option:check"
+#~ msgid "Allow running queries in non-SQL files"
+#~ msgstr "Разрешать выполнение запросов в файлах, не являющихся SQL"
+
+#~ msgctxt "@option:check"
+#~ msgid "Enable auto query selection"
+#~ msgstr "Автоматически выделять запрос"
+
+#~ msgctxt "@option:check"
+#~ msgid "Always show query selector popup"
+#~ msgstr "Всегда показывать всплывающее окно выбора запроса"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"

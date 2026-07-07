@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-24 01:27+0000\n"
+"POT-Creation-Date: 2026-07-07 00:46+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -150,7 +150,7 @@ msgctxt "@label:textbox"
 msgid "Connection name:"
 msgstr "连接名称："
 
-#: dataoutputwidget.cpp:93 katesqlview.cpp:52
+#: dataoutputwidget.cpp:93 katesqlview.cpp:47
 #, kde-format
 msgid "SQL"
 msgstr "SQL"
@@ -423,100 +423,82 @@ msgstr "实验性"
 #: katesqlconfigpage.cpp:38
 #, kde-format
 msgctxt "@option:check"
-msgid "Allow running queries in non-SQL files"
-msgstr "允许在非 SQL 文件中运行查询"
-
-#: katesqlconfigpage.cpp:40
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable auto query selection"
-msgstr "启用自动查询选择"
-
-#: katesqlconfigpage.cpp:41
-#, kde-format
-msgctxt "@option:check"
 msgid "Treat a blank line as a statement break"
 msgstr "将空白行视为语句断开"
 
-#: katesqlconfigpage.cpp:42
-#, kde-format
-msgctxt "@option:check"
-msgid "Always show query selector popup"
-msgstr "始终显示查询选择器弹窗"
-
-#: katesqlconfigpage.cpp:44
+#: katesqlconfigpage.cpp:40
 #, kde-format
 msgctxt "@title:group"
 msgid "Output Customization"
 msgstr "输出自定义"
 
-#: katesqlconfigpage.cpp:51
+#: katesqlconfigpage.cpp:47
 #, kde-format
 msgctxt "@option:check"
 msgid "Use system defaults"
 msgstr "使用系统默认值"
 
-#: katesqlconfigpage.cpp:52
+#: katesqlconfigpage.cpp:48
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset to System Defaults"
 msgstr "重置为系统默认值"
 
-#: katesqlconfigpage.cpp:113
+#: katesqlconfigpage.cpp:86
 #, kde-format
 msgctxt "@title"
 msgid "SQL"
 msgstr "SQL"
 
-#: katesqlconfigpage.cpp:118
+#: katesqlconfigpage.cpp:91
 #, kde-format
 msgctxt "@title:window"
 msgid "SQL ConfigPage Settings"
 msgstr "SQL 配置页面设置"
 
-#: katesqlview.cpp:59
+#: katesqlview.cpp:54
 #, kde-format
 msgctxt "@title:window"
 msgid "SQL"
 msgstr "SQL"
 
-#: katesqlview.cpp:65
+#: katesqlview.cpp:60
 #, kde-format
 msgctxt "@title:window"
 msgid "SQL Schema"
 msgstr "SQL 纲目结构"
 
-#: katesqlview.cpp:159
+#: katesqlview.cpp:145
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add Connection..."
 msgstr "添加连接..."
 
-#: katesqlview.cpp:164
+#: katesqlview.cpp:150
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Connection"
 msgstr "移除连接"
 
-#: katesqlview.cpp:169
+#: katesqlview.cpp:155
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Edit Connection..."
 msgstr "编辑连接..."
 
-#: katesqlview.cpp:174
+#: katesqlview.cpp:160
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reconnect"
 msgstr "重新连接"
 
-#: katesqlview.cpp:180
+#: katesqlview.cpp:166
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Connection"
 msgstr "连接"
 
-#: katesqlview.cpp:184
+#: katesqlview.cpp:170
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Run Query"
@@ -716,3 +698,15 @@ msgstr "SQL 连接工具栏"
 #, kde-format
 msgid "SQL Toolbar"
 msgstr "SQL 工具栏"
+
+#~ msgctxt "@option:check"
+#~ msgid "Allow running queries in non-SQL files"
+#~ msgstr "允许在非 SQL 文件中运行查询"
+
+#~ msgctxt "@option:check"
+#~ msgid "Enable auto query selection"
+#~ msgstr "启用自动查询选择"
+
+#~ msgctxt "@option:check"
+#~ msgid "Always show query selector popup"
+#~ msgstr "始终显示查询选择器弹窗"

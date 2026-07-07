@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-24 01:27+0000\n"
+"POT-Creation-Date: 2026-07-07 00:46+0000\n"
 "PO-Revision-Date: 2026-06-07 16:47+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -152,7 +152,7 @@ msgctxt "@label:textbox"
 msgid "Connection name:"
 msgstr "連線名稱："
 
-#: dataoutputwidget.cpp:93 katesqlview.cpp:52
+#: dataoutputwidget.cpp:93 katesqlview.cpp:47
 #, kde-format
 msgid "SQL"
 msgstr "SQL"
@@ -425,100 +425,82 @@ msgstr "實驗性"
 #: katesqlconfigpage.cpp:38
 #, kde-format
 msgctxt "@option:check"
-msgid "Allow running queries in non-SQL files"
-msgstr "允許在非 SQL 檔案中執行查詢"
-
-#: katesqlconfigpage.cpp:40
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable auto query selection"
-msgstr "啟用自動查詢選取"
-
-#: katesqlconfigpage.cpp:41
-#, kde-format
-msgctxt "@option:check"
 msgid "Treat a blank line as a statement break"
 msgstr "將空行視為陳述式結尾"
 
-#: katesqlconfigpage.cpp:42
-#, kde-format
-msgctxt "@option:check"
-msgid "Always show query selector popup"
-msgstr "總是顯示查詢選取彈出視窗"
-
-#: katesqlconfigpage.cpp:44
+#: katesqlconfigpage.cpp:40
 #, kde-format
 msgctxt "@title:group"
 msgid "Output Customization"
 msgstr "輸出調整"
 
-#: katesqlconfigpage.cpp:51
+#: katesqlconfigpage.cpp:47
 #, kde-format
 msgctxt "@option:check"
 msgid "Use system defaults"
 msgstr "使用系統預設值"
 
-#: katesqlconfigpage.cpp:52
+#: katesqlconfigpage.cpp:48
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset to System Defaults"
 msgstr "重設為系統預設值"
 
-#: katesqlconfigpage.cpp:113
+#: katesqlconfigpage.cpp:86
 #, kde-format
 msgctxt "@title"
 msgid "SQL"
 msgstr "SQL"
 
-#: katesqlconfigpage.cpp:118
+#: katesqlconfigpage.cpp:91
 #, kde-format
 msgctxt "@title:window"
 msgid "SQL ConfigPage Settings"
 msgstr "SQL 組態頁面設定"
 
-#: katesqlview.cpp:59
+#: katesqlview.cpp:54
 #, kde-format
 msgctxt "@title:window"
 msgid "SQL"
 msgstr "SQL"
 
-#: katesqlview.cpp:65
+#: katesqlview.cpp:60
 #, kde-format
 msgctxt "@title:window"
 msgid "SQL Schema"
 msgstr "SQL 綱要"
 
-#: katesqlview.cpp:159
+#: katesqlview.cpp:145
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add Connection..."
 msgstr "新增連線..."
 
-#: katesqlview.cpp:164
+#: katesqlview.cpp:150
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Connection"
 msgstr "移除連線"
 
-#: katesqlview.cpp:169
+#: katesqlview.cpp:155
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Edit Connection..."
 msgstr "編輯連線..."
 
-#: katesqlview.cpp:174
+#: katesqlview.cpp:160
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reconnect"
 msgstr "重新連線"
 
-#: katesqlview.cpp:180
+#: katesqlview.cpp:166
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Connection"
 msgstr "連線"
 
-#: katesqlview.cpp:184
+#: katesqlview.cpp:170
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Run Query"
@@ -719,6 +701,18 @@ msgstr "SQL 連線工具列"
 #, kde-format
 msgid "SQL Toolbar"
 msgstr "SQL 工具列"
+
+#~ msgctxt "@option:check"
+#~ msgid "Allow running queries in non-SQL files"
+#~ msgstr "允許在非 SQL 檔案中執行查詢"
+
+#~ msgctxt "@option:check"
+#~ msgid "Enable auto query selection"
+#~ msgstr "啟用自動查詢選取"
+
+#~ msgctxt "@option:check"
+#~ msgid "Always show query selector popup"
+#~ msgstr "總是顯示查詢選取彈出視窗"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
