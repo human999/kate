@@ -698,15 +698,3 @@ msgstr "SQL 连接工具栏"
 #, kde-format
 msgid "SQL Toolbar"
 msgstr "SQL 工具栏"
-
-#~ msgctxt "@option:check"
-#~ msgid "Allow running queries in non-SQL files"
-#~ msgstr "允许在非 SQL 文件中运行查询"
-
-#~ msgctxt "@option:check"
-#~ msgid "Enable auto query selection"
-#~ msgstr "启用自动查询选择"
-
-#~ msgctxt "@option:check"
-#~ msgid "Always show query selector popup"
-#~ msgstr "始终显示查询选择器弹窗"

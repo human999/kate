@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-07 00:46+0000\n"
+"POT-Creation-Date: 2026-07-11 00:47+0000\n"
 "PO-Revision-Date: 2014-01-31 19:52+0100\n"
 "Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
 "Language-Team: bosanski <bs@li.org>\n"
@@ -32,23 +32,23 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "samir.ribic@etf.unsa.ba,vljubovic@smartnet.ba"
 
-#: kate/main.cpp:119
+#: kate/main.cpp:120
 #, kde-format
 msgid "Kate"
 msgstr "Kate"
 
-#: kate/main.cpp:121
+#: kate/main.cpp:122
 #, kde-format
 msgid "Kate - Advanced Text Editor"
 msgstr "Kate, napredni uređivač teksta"
 
-#: kate/main.cpp:123 kwrite/main.cpp:50
+#: kate/main.cpp:124 kwrite/main.cpp:51
 #, fuzzy, kde-format
 #| msgid "(c) 2000-2005 The Kate Authors"
 msgid "(c) 2000-2024 The Kate Authors"
 msgstr "(c) 2000-2005 The Kate Authors"
 
-#: kate/main.cpp:169 lib/autotests/kate_view_mgmt_test2.cpp:220
+#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:220
 #: lib/autotests/kate_view_mgmt_test2.cpp:522
 #: lib/autotests/kate_view_mgmt_test2.cpp:558
 #, fuzzy, kde-format
@@ -56,7 +56,7 @@ msgstr "(c) 2000-2005 The Kate Authors"
 msgid "Start Kate with a given session."
 msgstr "Pokreni Kate sa datom sesijom"
 
-#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:221
+#: kate/main.cpp:171 lib/autotests/kate_view_mgmt_test2.cpp:221
 #: lib/autotests/kate_view_mgmt_test2.cpp:523
 #: lib/autotests/kate_view_mgmt_test2.cpp:559
 #, fuzzy, kde-format
@@ -64,13 +64,13 @@ msgstr "Pokreni Kate sa datom sesijom"
 msgid "session"
 msgstr "Sesije"
 
-#: kate/main.cpp:175
+#: kate/main.cpp:176
 #, fuzzy, kde-format
 #| msgid "Start Kate with a new anonymous session, implies '-n'"
 msgid "Start Kate with a new anonymous session, implies '-n'."
 msgstr "Pokreni Kate sa novom anonimnom sesijom (povlači -n)"
 
-#: kate/main.cpp:180
+#: kate/main.cpp:181
 #, fuzzy, kde-format
 #| msgid ""
 #| "Force start of a new kate instance (is ignored if start is used and "
@@ -84,7 +84,7 @@ msgstr ""
 "Prinudno pokreni novi primjerak Kate ako nije dat nijedan parametar niti URL "
 "(ignoriše se ako je sesija zadata i već otvorena u drugom primjerku)"
 
-#: kate/main.cpp:186
+#: kate/main.cpp:187
 #, fuzzy, kde-format
 #| msgid ""
 #| "If using an already running kate instance, block until it exits, if URLs "
@@ -96,7 +96,7 @@ msgstr ""
 "Ako se koristi već pokrenuti primjerak Kate, blokiraj dok ne završi ako su "
 "dati URL‑ovi za otvaranje"
 
-#: kate/main.cpp:192
+#: kate/main.cpp:193
 #, fuzzy, kde-format
 #| msgid ""
 #| "Only try to reuse kate instance with this pid (is ignored if start is "
@@ -108,74 +108,81 @@ msgstr ""
 "Pokušaj da upotrijebiš samo primjerak Kate sa ovim PID‑om (ignoriše se ako "
 "je sesija zadata i već otvorena u drugom primjerku)"
 
-#: kate/main.cpp:193
+#: kate/main.cpp:194
 #, kde-format
 msgid "pid"
 msgstr ""
 
-#: kate/main.cpp:198 kwrite/main.cpp:101
+#: kate/main.cpp:199 kwrite/main.cpp:102
 #, fuzzy, kde-format
 #| msgid "Set encoding for the file to open"
 msgid "Set encoding for the file to open."
 msgstr "Kodiranje za datoteku koja se otvara"
 
-#: kate/main.cpp:199 kwrite/main.cpp:102
+#: kate/main.cpp:200 kwrite/main.cpp:103
 #, fuzzy, kde-format
 #| msgid "Show Encoding"
 msgid "encoding"
 msgstr "Prikaži kodiranje"
 
-#: kate/main.cpp:203 kwrite/main.cpp:106
+#: kate/main.cpp:204 kwrite/main.cpp:107
 #, fuzzy, kde-format
 #| msgid "Navigate to this line"
 msgid "Navigate to this line."
 msgstr "Idi na ovaj red"
 
-#: kate/main.cpp:203 kwrite/main.cpp:106
+#: kate/main.cpp:204 kwrite/main.cpp:107
 #, kde-format
 msgid "line"
 msgstr ""
 
-#: kate/main.cpp:207 kwrite/main.cpp:110
+#: kate/main.cpp:208 kwrite/main.cpp:111
 #, fuzzy, kde-format
 #| msgid "Navigate to this column"
 msgid "Navigate to this column."
 msgstr "Idi na ovu kolonu"
 
-#: kate/main.cpp:207 kwrite/main.cpp:110
+#: kate/main.cpp:208 kwrite/main.cpp:111
 #, kde-format
 msgid "column"
 msgstr ""
 
-#: kate/main.cpp:211 kwrite/main.cpp:114
+#: kate/main.cpp:212 kwrite/main.cpp:115
 #, fuzzy, kde-format
 #| msgid "Read the contents of stdin"
 msgid "Read the contents of stdin."
 msgstr "Učitaj sadržaj sa stdin"
 
-#: kate/main.cpp:216 kwrite/main.cpp:118
+#: kate/main.cpp:217 kwrite/main.cpp:119
 #, kde-format
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr ""
 
-#: kate/main.cpp:220 kwrite/main.cpp:122
+#: kate/main.cpp:221 kwrite/main.cpp:123
+#, kde-format
+msgid ""
+"Starts the application in self-test mode for some basic functions checks and "
+"quits afterwards"
+msgstr ""
+
+#: kate/main.cpp:225 kwrite/main.cpp:127
 #, fuzzy, kde-format
 #| msgid "Document to open"
 msgid "Documents to open."
 msgstr "Dokument za otvaranje"
 
-#: kate/main.cpp:220 kwrite/main.cpp:122
+#: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
 msgid "[urls...]"
 msgstr ""
 
-#: kwrite/main.cpp:46
+#: kwrite/main.cpp:47
 #, fuzzy, kde-format
 #| msgid "KWrite Author"
 msgid "KWrite"
 msgstr "KWrite Autor"
 
-#: kwrite/main.cpp:48
+#: kwrite/main.cpp:49
 #, fuzzy, kde-format
 #| msgid "Kate - Advanced Text Editor"
 msgid "KWrite - Text Editor"
@@ -1049,12 +1056,12 @@ msgstr "valjana pomoć"
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr "svi koji su doprinijeli, a ja zaboravih da ih spomenem"
 
-#: lib/kateapp.cpp:591
+#: lib/kateapp.cpp:593
 #, kde-format
 msgid "Folders can only be opened when the projects plugin is enabled"
 msgstr ""
 
-#: lib/kateapp.cpp:684
+#: lib/kateapp.cpp:686
 #, kde-format
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."

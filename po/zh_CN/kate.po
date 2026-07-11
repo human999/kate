@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-07 00:46+0000\n"
+"POT-Creation-Date: 2026-07-11 00:47+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -34,41 +34,41 @@ msgstr ""
 "netwind2003@263.net, shuizhuyuanluo@126.com, phoenixlzx@archlinuxcn.org, "
 "sarahs@redhat.com, tds00@qq.com, wengxt@gmail.com, jxiong@offtopic.org"
 
-#: kate/main.cpp:119
+#: kate/main.cpp:120
 #, kde-format
 msgid "Kate"
 msgstr "Kate"
 
-#: kate/main.cpp:121
+#: kate/main.cpp:122
 #, kde-format
 msgid "Kate - Advanced Text Editor"
 msgstr "Kate - 多功能文本编辑器"
 
-#: kate/main.cpp:123 kwrite/main.cpp:50
+#: kate/main.cpp:124 kwrite/main.cpp:51
 #, kde-format
 msgid "(c) 2000-2024 The Kate Authors"
 msgstr "(c) 2000-2024 The Kate Authors"
 
-#: kate/main.cpp:169 lib/autotests/kate_view_mgmt_test2.cpp:220
+#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:220
 #: lib/autotests/kate_view_mgmt_test2.cpp:522
 #: lib/autotests/kate_view_mgmt_test2.cpp:558
 #, kde-format
 msgid "Start Kate with a given session."
 msgstr "以给定会话启动 Kate."
 
-#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:221
+#: kate/main.cpp:171 lib/autotests/kate_view_mgmt_test2.cpp:221
 #: lib/autotests/kate_view_mgmt_test2.cpp:523
 #: lib/autotests/kate_view_mgmt_test2.cpp:559
 #, kde-format
 msgid "session"
 msgstr "会话"
 
-#: kate/main.cpp:175
+#: kate/main.cpp:176
 #, kde-format
 msgid "Start Kate with a new anonymous session, implies '-n'."
 msgstr "以新的匿名会话启动 Kate，隐含了“-n”选项"
 
-#: kate/main.cpp:180
+#: kate/main.cpp:181
 #, kde-format
 msgid ""
 "Force start of a new kate instance (is ignored if start is used and another "
@@ -78,7 +78,7 @@ msgstr ""
 "强制启动一个新的 kate 实例(如果有另一个实例已经打开了相应会话则忽略)，如果没"
 "有给定任何参数和 URL，将强制启用。"
 
-#: kate/main.cpp:186
+#: kate/main.cpp:187
 #, kde-format
 msgid ""
 "If using an already running kate instance, block until it exits, if URLs "
@@ -86,7 +86,7 @@ msgid ""
 msgstr ""
 "如果使用一个运行的 kate 实例，且指定要打开的 URL，将阻塞程序直到其退出。"
 
-#: kate/main.cpp:192
+#: kate/main.cpp:193
 #, kde-format
 msgid ""
 "Only try to reuse kate instance with this pid (is ignored if start is used "
@@ -94,67 +94,74 @@ msgid ""
 msgstr ""
 "只尝试重用此进程号的 kate 实例(如果有另一个实例已经打开了相应会话则忽略)"
 
-#: kate/main.cpp:193
+#: kate/main.cpp:194
 #, kde-format
 msgid "pid"
 msgstr "进程号"
 
-#: kate/main.cpp:198 kwrite/main.cpp:101
+#: kate/main.cpp:199 kwrite/main.cpp:102
 #, kde-format
 msgid "Set encoding for the file to open."
 msgstr "设定要打开文件的编码。"
 
-#: kate/main.cpp:199 kwrite/main.cpp:102
+#: kate/main.cpp:200 kwrite/main.cpp:103
 #, kde-format
 msgid "encoding"
 msgstr "编码"
 
-#: kate/main.cpp:203 kwrite/main.cpp:106
+#: kate/main.cpp:204 kwrite/main.cpp:107
 #, kde-format
 msgid "Navigate to this line."
 msgstr "导航至此行。"
 
-#: kate/main.cpp:203 kwrite/main.cpp:106
+#: kate/main.cpp:204 kwrite/main.cpp:107
 #, kde-format
 msgid "line"
 msgstr "行"
 
-#: kate/main.cpp:207 kwrite/main.cpp:110
+#: kate/main.cpp:208 kwrite/main.cpp:111
 #, kde-format
 msgid "Navigate to this column."
 msgstr "导航至此列。"
 
-#: kate/main.cpp:207 kwrite/main.cpp:110
+#: kate/main.cpp:208 kwrite/main.cpp:111
 #, kde-format
 msgid "column"
 msgstr "列"
 
-#: kate/main.cpp:211 kwrite/main.cpp:114
+#: kate/main.cpp:212 kwrite/main.cpp:115
 #, kde-format
 msgid "Read the contents of stdin."
 msgstr "读取标准输入的内容."
 
-#: kate/main.cpp:216 kwrite/main.cpp:118
+#: kate/main.cpp:217 kwrite/main.cpp:119
 #, kde-format
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "应用程序所打开的文件/URL 即将在使用后删除"
 
-#: kate/main.cpp:220 kwrite/main.cpp:122
+#: kate/main.cpp:221 kwrite/main.cpp:123
+#, kde-format
+msgid ""
+"Starts the application in self-test mode for some basic functions checks and "
+"quits afterwards"
+msgstr ""
+
+#: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
 msgid "Documents to open."
 msgstr "要打开的文档."
 
-#: kate/main.cpp:220 kwrite/main.cpp:122
+#: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
 msgid "[urls...]"
 msgstr "[URL...]"
 
-#: kwrite/main.cpp:46
+#: kwrite/main.cpp:47
 #, kde-format
 msgid "KWrite"
 msgstr "KWrite"
 
-#: kwrite/main.cpp:48
+#: kwrite/main.cpp:49
 #, kde-format
 msgid "KWrite - Text Editor"
 msgstr "KWrite - 文本编辑器"
@@ -1011,12 +1018,12 @@ msgstr "很好的帮助"
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr "所有做出贡献而我却没能提到的人员"
 
-#: lib/kateapp.cpp:591
+#: lib/kateapp.cpp:593
 #, kde-format
 msgid "Folders can only be opened when the projects plugin is enabled"
 msgstr "只有启用项目插件时才能打开文件夹"
 
-#: lib/kateapp.cpp:684
+#: lib/kateapp.cpp:686
 #, kde-format
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
@@ -2849,13 +2856,13 @@ msgstr "为会话指定新名称：%1"
 #: lib/ui/sessionconfigwidget.ui:17
 #, kde-format
 msgid "Application Startup Behavior"
-msgstr "应用开机行为"
+msgstr "应用程序启动行为"
 
 #. i18n: ectx: property (text), widget (QRadioButton, startNewSessionRadioButton)
 #: lib/ui/sessionconfigwidget.ui:23
 #, kde-format
 msgid "&Start new session"
-msgstr "启动新会话(&S)"
+msgstr "启动全新会话(&S)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, loadLastUserSessionRadioButton)
 #: lib/ui/sessionconfigwidget.ui:30
@@ -2873,7 +2880,7 @@ msgstr "手动选择会话(&M)"
 #: lib/ui/sessionconfigwidget.ui:47
 #, kde-format
 msgid "Application Startup/Shutdown Behavior"
-msgstr "应用打开/关闭行为"
+msgstr "应用程序打开/关闭行为"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: lib/ui/sessionconfigwidget.ui:55
@@ -2885,13 +2892,13 @@ msgstr "自动保存并恢复："
 #: lib/ui/sessionconfigwidget.ui:67
 #, kde-format
 msgid "Newly-created unsaved files"
-msgstr "新创建但未保存的文件"
+msgstr "新建后未保存的文件"
 
 #. i18n: ectx: property (text), widget (QCheckBox, stashUnsavedFilesChanges)
 #: lib/ui/sessionconfigwidget.ui:77
 #, kde-format
 msgid "Files with unsaved changes"
-msgstr "有未保存的变更的文件"
+msgstr "有更改未保存的文件"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showWelcomeViewForNewWindow)
 #: lib/ui/sessionconfigwidget.ui:88
@@ -2903,7 +2910,7 @@ msgstr "如果禁用此项，新窗口将显示一个无标题文档。"
 #: lib/ui/sessionconfigwidget.ui:91
 #, kde-format
 msgid "Show welcome view for new windows"
-msgstr "新窗口显示欢迎界面"
+msgstr "新窗口显示欢迎画面"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, modCloseAfterLast)
 #: lib/ui/sessionconfigwidget.ui:98
@@ -2912,26 +2919,26 @@ msgid ""
 "If enabled, the application will shutdown when the last file being edited is "
 "closed, otherwise a blank page will open so that you can start a new file."
 msgstr ""
-"如果启用此项，当您所编辑的最后一个文件关闭时，应用程序将完全退出。如果不启用"
-"此选项，关闭最后一个文件时将打开一个空白标签页，以便开始编辑新文件。"
+"启用后，关闭最后一个文件时程序将退出；  未启用时，关闭最后一个文件会打开空白"
+"标签页，便于新建文件。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, modCloseAfterLast)
 #: lib/ui/sessionconfigwidget.ui:101
 #, kde-format
 msgid "Close the application entirely when the last file is closed"
-msgstr "关闭最后一个文件时彻底退出此应用程序"
+msgstr "关闭最后一个文件时退出应用程序"
 
 #. i18n: ectx: property (text), widget (QCheckBox, winClosesDocuments)
 #: lib/ui/sessionconfigwidget.ui:108
 #, kde-format
 msgid "Close documents with the window they belong to"
-msgstr "关闭文档及其所属的窗口"
+msgstr "关闭文档及其所在窗口"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbElements)
 #: lib/ui/sessionconfigwidget.ui:118
 #, kde-format
 msgid "Session Elements"
-msgstr "会话元素"
+msgstr "会话内容"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: lib/ui/sessionconfigwidget.ui:124
@@ -2941,8 +2948,8 @@ msgid ""
 "bookmarks, cursor position etc. When the session is loaded all elements are "
 "restored."
 msgstr ""
-"会话包含了打开文档列表，最近打开文件列表，书签，光标位置等。当会话加载时所有"
-"元素将恢复。"
+"会话内容包含：当前打开文档列表、最近打开文件列表、书签、光标位置等。会话加载"
+"时将恢复所有上述内容。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: lib/ui/sessionconfigwidget.ui:136
@@ -2956,7 +2963,7 @@ msgstr "最近打开文件列表的最大文件数："
 msgid ""
 "Check this if you want all your views and frames restored each time you open "
 "the application."
-msgstr "勾选此项后，每次打开此应用程序时将恢复所有视图和框架。"
+msgstr "勾选此项后，每次打开应用程序时将恢复所有视图和框架的状态。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, restoreVC)
 #: lib/ui/sessionconfigwidget.ui:167
@@ -2972,20 +2979,20 @@ msgid ""
 "be saved past editor sessions. The configuration will be restored if the "
 "document has not changed when reopened."
 msgstr ""
-"如果您想要在编辑器的不同会话中保存像书签这样的文档配置，请选中此项。如果重新"
-"打开文档的时候文档没有更改，则会恢复配置文件。"
+"勾选此项后，文档配置 (如书签) 将在编辑器会话结束后继续保留；重新打开文档时，"
+"如果文档未被修改，配置将自动恢复。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, saveMetaInfos)
 #: lib/ui/sessionconfigwidget.ui:180
 #, kde-format
 msgid "Keep &meta-information past sessions"
-msgstr "在会话中保留元信息(&M)"
+msgstr "会话结束后保留元信息(&M)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: lib/ui/sessionconfigwidget.ui:191
 #, kde-format
 msgid "Delete unused meta-information after:"
-msgstr "删除未使用的元信息，经过："
+msgstr "未使用元信息被清理前的保留天数："
 
 #: lib/welcomeview/welcomeview.cpp:57
 #, kde-format

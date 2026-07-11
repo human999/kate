@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-07 00:46+0000\n"
+"POT-Creation-Date: 2026-07-11 00:47+0000\n"
 "PO-Revision-Date: 2026-04-30 08:47+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -38,41 +38,41 @@ msgstr ""
 "bayazidi@arabeyes.org,bakr@mit.edu,okhayat@yahoo.com,metehyi@free.fr,"
 "safaalfulaij@hotmail.com"
 
-#: kate/main.cpp:119
+#: kate/main.cpp:120
 #, kde-format
 msgid "Kate"
 msgstr "كيت"
 
-#: kate/main.cpp:121
+#: kate/main.cpp:122
 #, kde-format
 msgid "Kate - Advanced Text Editor"
 msgstr "كيت - محرّر نصوص متقدّم"
 
-#: kate/main.cpp:123 kwrite/main.cpp:50
+#: kate/main.cpp:124 kwrite/main.cpp:51
 #, kde-format
 msgid "(c) 2000-2024 The Kate Authors"
 msgstr "© 2000-2024 مؤلّفو «كيت»"
 
-#: kate/main.cpp:169 lib/autotests/kate_view_mgmt_test2.cpp:220
+#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:220
 #: lib/autotests/kate_view_mgmt_test2.cpp:522
 #: lib/autotests/kate_view_mgmt_test2.cpp:558
 #, kde-format
 msgid "Start Kate with a given session."
 msgstr "ابدأ «كيت» بجلسة مُعطاة."
 
-#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:221
+#: kate/main.cpp:171 lib/autotests/kate_view_mgmt_test2.cpp:221
 #: lib/autotests/kate_view_mgmt_test2.cpp:523
 #: lib/autotests/kate_view_mgmt_test2.cpp:559
 #, kde-format
 msgid "session"
 msgstr "الجلسة"
 
-#: kate/main.cpp:175
+#: kate/main.cpp:176
 #, kde-format
 msgid "Start Kate with a new anonymous session, implies '-n'."
 msgstr "ابدأ «كيت» بجلسة مجهولة، يدلّ على '‎-n'."
 
-#: kate/main.cpp:180
+#: kate/main.cpp:181
 #, kde-format
 msgid ""
 "Force start of a new kate instance (is ignored if start is used and another "
@@ -82,7 +82,7 @@ msgstr ""
 "أجبر بدء نسخة «كيت» جديدة (يُتجاهل الخيار إن اختير البدء ولنسخة «كيت» أخرى "
 "نفس الجلسة مفتوحة). يُجبر الخيار إن لم تُعط أيّة معاملات أو عناوين."
 
-#: kate/main.cpp:186
+#: kate/main.cpp:187
 #, kde-format
 msgid ""
 "If using an already running kate instance, block until it exits, if URLs "
@@ -90,7 +90,7 @@ msgid ""
 msgstr ""
 "إن كانت هناك نسخة «كيت» عاملة، امنع التّشغيل حتّى تخرج، إن أُعطيت عناوين لفتحها."
 
-#: kate/main.cpp:192
+#: kate/main.cpp:193
 #, kde-format
 msgid ""
 "Only try to reuse kate instance with this pid (is ignored if start is used "
@@ -99,67 +99,74 @@ msgstr ""
 "حاول إعادة استخدام نسخة «كيت» بمعرّف العمليّة هذا فقط (يُتجاهل الخيار إن اختير "
 "البدء ولنسخة «كيت» أخرى نفس الجلسة مفتوحة)."
 
-#: kate/main.cpp:193
+#: kate/main.cpp:194
 #, kde-format
 msgid "pid"
 msgstr "معرّف‌العمليّة"
 
-#: kate/main.cpp:198 kwrite/main.cpp:101
+#: kate/main.cpp:199 kwrite/main.cpp:102
 #, kde-format
 msgid "Set encoding for the file to open."
 msgstr "اضبط ترميز الملفّ لفتحه."
 
-#: kate/main.cpp:199 kwrite/main.cpp:102
+#: kate/main.cpp:200 kwrite/main.cpp:103
 #, kde-format
 msgid "encoding"
 msgstr "التّرميز"
 
-#: kate/main.cpp:203 kwrite/main.cpp:106
+#: kate/main.cpp:204 kwrite/main.cpp:107
 #, kde-format
 msgid "Navigate to this line."
 msgstr "تنقّل إلى هذا السّطر."
 
-#: kate/main.cpp:203 kwrite/main.cpp:106
+#: kate/main.cpp:204 kwrite/main.cpp:107
 #, kde-format
 msgid "line"
 msgstr "السّطر"
 
-#: kate/main.cpp:207 kwrite/main.cpp:110
+#: kate/main.cpp:208 kwrite/main.cpp:111
 #, kde-format
 msgid "Navigate to this column."
 msgstr "تنقّل إلى هذا العمود."
 
-#: kate/main.cpp:207 kwrite/main.cpp:110
+#: kate/main.cpp:208 kwrite/main.cpp:111
 #, kde-format
 msgid "column"
 msgstr "العمود"
 
-#: kate/main.cpp:211 kwrite/main.cpp:114
+#: kate/main.cpp:212 kwrite/main.cpp:115
 #, kde-format
 msgid "Read the contents of stdin."
 msgstr "اقرأ محتويات stdin."
 
-#: kate/main.cpp:216 kwrite/main.cpp:118
+#: kate/main.cpp:217 kwrite/main.cpp:119
 #, kde-format
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "المستندات والعناوين التي يفتحها التّطبيق ستُحذف بعد استخدامها"
 
-#: kate/main.cpp:220 kwrite/main.cpp:122
+#: kate/main.cpp:221 kwrite/main.cpp:123
+#, kde-format
+msgid ""
+"Starts the application in self-test mode for some basic functions checks and "
+"quits afterwards"
+msgstr ""
+
+#: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
 msgid "Documents to open."
 msgstr "المستندات لفتحها."
 
-#: kate/main.cpp:220 kwrite/main.cpp:122
+#: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
 msgid "[urls...]"
 msgstr "[العناوين...]"
 
-#: kwrite/main.cpp:46
+#: kwrite/main.cpp:47
 #, kde-format
 msgid "KWrite"
 msgstr "كاتبك"
 
-#: kwrite/main.cpp:48
+#: kwrite/main.cpp:49
 #, kde-format
 msgid "KWrite - Text Editor"
 msgstr "كاتبك - محرّر نصوص"
@@ -1037,12 +1044,12 @@ msgstr "مساعدة لطيفة جدًّا"
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr "كلّ مَن ساهم ونسيت ذكره"
 
-#: lib/kateapp.cpp:591
+#: lib/kateapp.cpp:593
 #, kde-format
 msgid "Folders can only be opened when the projects plugin is enabled"
 msgstr "لا يمكن فتح المجلدات إلا عند تمكين ملحق المشاريع"
 
-#: lib/kateapp.cpp:684
+#: lib/kateapp.cpp:686
 #, kde-format
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."

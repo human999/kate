@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-07 00:46+0000\n"
+"POT-Creation-Date: 2026-07-11 00:47+0000\n"
 "PO-Revision-Date: 2024-06-01 17:50\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -38,41 +38,41 @@ msgstr ""
 "komzpa@licei2.com, bashybuzuk@tut.by, ivan.telkontar@gmail.com, "
 "nashtlumach@gmail.com"
 
-#: kate/main.cpp:119
+#: kate/main.cpp:120
 #, kde-format
 msgid "Kate"
 msgstr "Kate"
 
-#: kate/main.cpp:121
+#: kate/main.cpp:122
 #, kde-format
 msgid "Kate - Advanced Text Editor"
 msgstr "Kate - шматфункцыянальны тэкставы рэдактар"
 
-#: kate/main.cpp:123 kwrite/main.cpp:50
+#: kate/main.cpp:124 kwrite/main.cpp:51
 #, kde-format
 msgid "(c) 2000-2024 The Kate Authors"
 msgstr "(c) 2000-2024, аўтары Kate"
 
-#: kate/main.cpp:169 lib/autotests/kate_view_mgmt_test2.cpp:220
+#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:220
 #: lib/autotests/kate_view_mgmt_test2.cpp:522
 #: lib/autotests/kate_view_mgmt_test2.cpp:558
 #, kde-format
 msgid "Start Kate with a given session."
 msgstr "Запуск Kate у дадзеным сеансе."
 
-#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:221
+#: kate/main.cpp:171 lib/autotests/kate_view_mgmt_test2.cpp:221
 #: lib/autotests/kate_view_mgmt_test2.cpp:523
 #: lib/autotests/kate_view_mgmt_test2.cpp:559
 #, kde-format
 msgid "session"
 msgstr "сеанс"
 
-#: kate/main.cpp:175
+#: kate/main.cpp:176
 #, kde-format
 msgid "Start Kate with a new anonymous session, implies '-n'."
 msgstr "Запуск Kate у новым ананімным сеансе, маецца на ўвазе \"-n\"."
 
-#: kate/main.cpp:180
+#: kate/main.cpp:181
 #, kde-format
 msgid ""
 "Force start of a new kate instance (is ignored if start is used and another "
@@ -83,7 +83,7 @@ msgstr ""
 "kate ужо адкрыты сеанс), прымусова, калі не вызначаныя параметры і URL-"
 "адрасы."
 
-#: kate/main.cpp:186
+#: kate/main.cpp:187
 #, kde-format
 msgid ""
 "If using an already running kate instance, block until it exits, if URLs "
@@ -92,7 +92,7 @@ msgstr ""
 "Калі выкарыстоўваецца ўжо запушчаны асобнік kate блакаваць, пакуль ён не "
 "будзе закрыты, калі URL-адрасы пазначаныя для адкрыцця."
 
-#: kate/main.cpp:192
+#: kate/main.cpp:193
 #, kde-format
 msgid ""
 "Only try to reuse kate instance with this pid (is ignored if start is used "
@@ -102,67 +102,74 @@ msgstr ""
 "калі выкарыстоўваецца запуску і ў іншым асобніку kate ужо адкрыты дадзены "
 "сеанс)."
 
-#: kate/main.cpp:193
+#: kate/main.cpp:194
 #, kde-format
 msgid "pid"
 msgstr "pid"
 
-#: kate/main.cpp:198 kwrite/main.cpp:101
+#: kate/main.cpp:199 kwrite/main.cpp:102
 #, kde-format
 msgid "Set encoding for the file to open."
 msgstr "Вызначыць кадаванне для файла, які трэба адкрыць."
 
-#: kate/main.cpp:199 kwrite/main.cpp:102
+#: kate/main.cpp:200 kwrite/main.cpp:103
 #, kde-format
 msgid "encoding"
 msgstr "кадаванне"
 
-#: kate/main.cpp:203 kwrite/main.cpp:106
+#: kate/main.cpp:204 kwrite/main.cpp:107
 #, kde-format
 msgid "Navigate to this line."
 msgstr "Перайсці ў гэты радок."
 
-#: kate/main.cpp:203 kwrite/main.cpp:106
+#: kate/main.cpp:204 kwrite/main.cpp:107
 #, kde-format
 msgid "line"
 msgstr "радок"
 
-#: kate/main.cpp:207 kwrite/main.cpp:110
+#: kate/main.cpp:208 kwrite/main.cpp:111
 #, kde-format
 msgid "Navigate to this column."
 msgstr "Перайсці ў гэты слупок."
 
-#: kate/main.cpp:207 kwrite/main.cpp:110
+#: kate/main.cpp:208 kwrite/main.cpp:111
 #, kde-format
 msgid "column"
 msgstr "слупок"
 
-#: kate/main.cpp:211 kwrite/main.cpp:114
+#: kate/main.cpp:212 kwrite/main.cpp:115
 #, kde-format
 msgid "Read the contents of stdin."
 msgstr "Прачытаць змесціва stdin."
 
-#: kate/main.cpp:216 kwrite/main.cpp:118
+#: kate/main.cpp:217 kwrite/main.cpp:119
 #, kde-format
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "Файлы/URL-ы, адкрытыя праграмай, выдаляцца пасля выкарыстання"
 
-#: kate/main.cpp:220 kwrite/main.cpp:122
+#: kate/main.cpp:221 kwrite/main.cpp:123
+#, kde-format
+msgid ""
+"Starts the application in self-test mode for some basic functions checks and "
+"quits afterwards"
+msgstr ""
+
+#: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
 msgid "Documents to open."
 msgstr "Дакументы для адкрыцця."
 
-#: kate/main.cpp:220 kwrite/main.cpp:122
+#: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
 msgid "[urls...]"
 msgstr "[url-адрасы...]"
 
-#: kwrite/main.cpp:46
+#: kwrite/main.cpp:47
 #, kde-format
 msgid "KWrite"
 msgstr "KWrite"
 
-#: kwrite/main.cpp:48
+#: kwrite/main.cpp:49
 #, kde-format
 msgid "KWrite - Text Editor"
 msgstr "KWrite - тэкставы рэдактар"
@@ -1020,12 +1027,12 @@ msgstr "Вельмі зручная даведка"
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr "Усе іншыя людзі, якія дапамагалі, але я забыўся ўзгадаць іх"
 
-#: lib/kateapp.cpp:591
+#: lib/kateapp.cpp:593
 #, kde-format
 msgid "Folders can only be opened when the projects plugin is enabled"
 msgstr ""
 
-#: lib/kateapp.cpp:684
+#: lib/kateapp.cpp:686
 #, kde-format
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."

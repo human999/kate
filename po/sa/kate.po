@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-07 00:46+0000\n"
+"POT-Creation-Date: 2026-07-11 00:47+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -25,41 +25,41 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "skkalwar999@gmail.com"
 
-#: kate/main.cpp:119
+#: kate/main.cpp:120
 #, kde-format
 msgid "Kate"
 msgstr "केट्"
 
-#: kate/main.cpp:121
+#: kate/main.cpp:122
 #, kde-format
 msgid "Kate - Advanced Text Editor"
 msgstr "केट - उन्नत पाठ्य सम्पादक"
 
-#: kate/main.cpp:123 kwrite/main.cpp:50
+#: kate/main.cpp:124 kwrite/main.cpp:51
 #, kde-format
 msgid "(c) 2000-2024 The Kate Authors"
 msgstr "(c) २०००-२०२४ केट लेखकाः"
 
-#: kate/main.cpp:169 lib/autotests/kate_view_mgmt_test2.cpp:220
+#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:220
 #: lib/autotests/kate_view_mgmt_test2.cpp:522
 #: lib/autotests/kate_view_mgmt_test2.cpp:558
 #, kde-format
 msgid "Start Kate with a given session."
 msgstr "दत्तसत्रेण केट् आरभत।."
 
-#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:221
+#: kate/main.cpp:171 lib/autotests/kate_view_mgmt_test2.cpp:221
 #: lib/autotests/kate_view_mgmt_test2.cpp:523
 #: lib/autotests/kate_view_mgmt_test2.cpp:559
 #, kde-format
 msgid "session"
 msgstr "सत्र"
 
-#: kate/main.cpp:175
+#: kate/main.cpp:176
 #, kde-format
 msgid "Start Kate with a new anonymous session, implies '-n'."
 msgstr "केट् नूतनेन अनामिकेन सत्रेण आरभत, '-n' इत्यस्य तात्पर्यम् ।."
 
-#: kate/main.cpp:180
+#: kate/main.cpp:181
 #, kde-format
 msgid ""
 "Force start of a new kate instance (is ignored if start is used and another "
@@ -70,7 +70,7 @@ msgstr ""
 "उदाहरणस्य पूर्वमेव दत्तं सत्रं उद्घाटितं भवति तर्हि अवहेलितं भवति), यदि कोऽपि पैरामीटर् "
 "नास्ति तथा च URL सर्वथा न दत्तः तर्हि बलात् क्रियते."
 
-#: kate/main.cpp:186
+#: kate/main.cpp:187
 #, kde-format
 msgid ""
 "If using an already running kate instance, block until it exits, if URLs "
@@ -79,7 +79,7 @@ msgstr ""
 "यदि पूर्वमेव चालितं केट् उदाहरणं उपयुज्यते तर्हि यावत् तत् निर्गच्छति तावत् अवरोधयन्तु, यदि "
 "URLs उद्घाटयितुं दत्ताः सन्ति ।."
 
-#: kate/main.cpp:192
+#: kate/main.cpp:193
 #, kde-format
 msgid ""
 "Only try to reuse kate instance with this pid (is ignored if start is used "
@@ -89,67 +89,74 @@ msgstr ""
 "उपयोगः भवति तथा च अन्यस्य केट् उदाहरणं इत्यस्य पूर्वमेव दत्तं सत्रं उद्घाटितं भवति तर्हि "
 "उपेक्षितं भवति) ।."
 
-#: kate/main.cpp:193
+#: kate/main.cpp:194
 #, kde-format
 msgid "pid"
 msgstr "पिड"
 
-#: kate/main.cpp:198 kwrite/main.cpp:101
+#: kate/main.cpp:199 kwrite/main.cpp:102
 #, kde-format
 msgid "Set encoding for the file to open."
 msgstr "सञ्चिकायाः उद्घाटनार्थं सङ्कूटन निरूपयत् कुर्वन्तु ।."
 
-#: kate/main.cpp:199 kwrite/main.cpp:102
+#: kate/main.cpp:200 kwrite/main.cpp:103
 #, kde-format
 msgid "encoding"
 msgstr "सङ्कूटनम्"
 
-#: kate/main.cpp:203 kwrite/main.cpp:106
+#: kate/main.cpp:204 kwrite/main.cpp:107
 #, kde-format
 msgid "Navigate to this line."
 msgstr "अस्याः पङ्क्तौ गच्छन्तु ।."
 
-#: kate/main.cpp:203 kwrite/main.cpp:106
+#: kate/main.cpp:204 kwrite/main.cpp:107
 #, kde-format
 msgid "line"
 msgstr "पंक्ति"
 
-#: kate/main.cpp:207 kwrite/main.cpp:110
+#: kate/main.cpp:208 kwrite/main.cpp:111
 #, kde-format
 msgid "Navigate to this column."
 msgstr "अस्मिन् स्तम्भे गच्छन्तु ।."
 
-#: kate/main.cpp:207 kwrite/main.cpp:110
+#: kate/main.cpp:208 kwrite/main.cpp:111
 #, kde-format
 msgid "column"
 msgstr "स्तम्भः"
 
-#: kate/main.cpp:211 kwrite/main.cpp:114
+#: kate/main.cpp:212 kwrite/main.cpp:115
 #, kde-format
 msgid "Read the contents of stdin."
 msgstr "\"stdin\" इत्यस्य विषयवस्तु पठन्तु।."
 
-#: kate/main.cpp:216 kwrite/main.cpp:118
+#: kate/main.cpp:217 kwrite/main.cpp:119
 #, kde-format
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "अनुप्रयोगेन उद्घाटिताः सञ्चिकाः/URLs उपयोगानन्तरं विलोपिताः भविष्यन्ति"
 
-#: kate/main.cpp:220 kwrite/main.cpp:122
+#: kate/main.cpp:221 kwrite/main.cpp:123
+#, kde-format
+msgid ""
+"Starts the application in self-test mode for some basic functions checks and "
+"quits afterwards"
+msgstr ""
+
+#: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
 msgid "Documents to open."
 msgstr "दस्तावेजाः उद्घाटयितुं।."
 
-#: kate/main.cpp:220 kwrite/main.cpp:122
+#: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
 msgid "[urls...]"
 msgstr "[urls...]"
 
-#: kwrite/main.cpp:46
+#: kwrite/main.cpp:47
 #, kde-format
 msgid "KWrite"
 msgstr "KWrite"
 
-#: kwrite/main.cpp:48
+#: kwrite/main.cpp:49
 #, kde-format
 msgid "KWrite - Text Editor"
 msgstr "KWrite - पाठ्य सम्पादक"
@@ -1015,12 +1022,12 @@ msgstr "अतीव सुन्दरं साहाय्यं"
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr "ये जनाः योगदानं दत्तवन्तः तेषां सर्वेषां उल्लेखः मया विस्मृतः"
 
-#: lib/kateapp.cpp:591
+#: lib/kateapp.cpp:593
 #, kde-format
 msgid "Folders can only be opened when the projects plugin is enabled"
 msgstr "यदा परियोजनानि प्लगिन् सक्षमं भवति तदा एव पुटम् उद्घाटयितुं शक्यन्ते"
 
-#: lib/kateapp.cpp:684
+#: lib/kateapp.cpp:686
 #, kde-format
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
