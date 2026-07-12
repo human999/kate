@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-11 00:47+0000\n"
-"PO-Revision-Date: 2026-04-23 06:32+0200\n"
+"PO-Revision-Date: 2026-07-11 05:32+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -143,6 +143,8 @@ msgid ""
 "Starts the application in self-test mode for some basic functions checks and "
 "quits afterwards"
 msgstr ""
+"გაუშვებს აპლიკაციას თვითშემოწმების რეჟიმში ზოგიერთი ძირითადი ფუნქციის "
+"შესამოწმებლად. შემდეგ მუშაობა დასრულდება"
 
 #: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format

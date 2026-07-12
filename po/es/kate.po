@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-11 00:47+0000\n"
-"PO-Revision-Date: 2026-04-23 11:12+0100\n"
+"PO-Revision-Date: 2026-07-11 12:00+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "First-Translator: Boris Wesslowski <Boris@Wesslowski.com>\n"
-"X-Generator: Lokalize 26.04.0\n"
+"X-Generator: Lokalize 26.04.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #, kde-format
@@ -155,6 +155,8 @@ msgid ""
 "Starts the application in self-test mode for some basic functions checks and "
 "quits afterwards"
 msgstr ""
+"Inicia la aplicación en modo de autodiagnóstico para comprobar algunas "
+"funciones básicas y, posteriormente, se cierra."
 
 #: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format

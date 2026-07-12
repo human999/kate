@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-11 00:47+0000\n"
-"PO-Revision-Date: 2026-04-23 14:04+0300\n"
+"PO-Revision-Date: 2026-07-11 13:45+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -149,6 +149,8 @@ msgid ""
 "Starts the application in self-test mode for some basic functions checks and "
 "quits afterwards"
 msgstr ""
+"Запускає програму у режимі самоперевірки для виконання деяких базових "
+"перевірок функцій та наступного завершення роботи"
 
 #: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
