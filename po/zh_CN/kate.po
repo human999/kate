@@ -144,7 +144,7 @@ msgstr "应用程序所打开的文件/URL 即将在使用后删除"
 msgid ""
 "Starts the application in self-test mode for some basic functions checks and "
 "quits afterwards"
-msgstr ""
+msgstr "以自检模式启动应用程序以检查某些基本功能，然后退出"
 
 #: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
