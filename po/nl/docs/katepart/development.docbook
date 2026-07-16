@@ -893,7 +893,7 @@
 <para
 ><userinput
 >char</userinput
-> is een gecodeerd teken.</para>
+> is een gecodeerd teken. Indien niet gespecificeerd zal spellingcontrole deze codering negeren.</para>
 <para
 ><userinput
 >string</userinput
@@ -1149,6 +1149,14 @@
 >, die er voor zorgt dat de engine eerst de order volgt en dan omschakelt naar de andere context, &eg; <userinput
 >#pop#pop!AndereContext</userinput
 >.</para>
+<para
+>U kunt meerdere contexten stapelen door het teken (<emphasis
+>!</emphasis
+>) te herhalen, gevolgd door een <emphasis
+>identifier</emphasis
+>`, bijvoorbeeld: <userinput
+>ContextA!ContextB!ContextC</userinput
+>. De laatste context in de lijst is direct actief; de andere contexten worden benaderd met `#pop`.</para>
 </listitem>
 <listitem>
 <para
