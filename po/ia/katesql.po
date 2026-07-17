@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-07 00:46+0000\n"
-"PO-Revision-Date: 2026-05-18 12:01+0200\n"
+"PO-Revision-Date: 2026-07-16 16:42+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -425,7 +425,7 @@ msgstr "Experimental"
 #, kde-format
 msgctxt "@option:check"
 msgid "Treat a blank line as a statement break"
-msgstr ""
+msgstr "Tracta un linea vacue como un interruption de linea"
 
 #: katesqlconfigpage.cpp:40
 #, kde-format
